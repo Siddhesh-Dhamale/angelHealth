@@ -9,14 +9,14 @@
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 <!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6Lflm-8qAAAAANZo3C-6NVWquw-zaZ88g244O6T5"></script>
-    <script src="./assets/form_captcha/captcha.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6Lflm-8qAAAAANZo3C-6NVWquw-zaZ88g244O6T5"></script>
+<script src="./assets/form_captcha/captcha.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
 <header class="">
     <div class="Lp_header container logo d-flex justify-content-between align-items-center py-4">
 
-        <a class="navbar-brand pageLink m-0   flex-row align-items-center" href="/">
+        <a class="navbar-brand pageLink m-0 flex-row align-items-center" href="/">
             <img src="assets/templates/img/logo-angel-health-centre.png" class="img-fluid" alt="">
             <div class="logo-txt border-left px-3">Health & Aesthetics Clinic</div>
         </a>
@@ -702,8 +702,8 @@
         }
 
         /* .logo {
-justify-content: start !important;
-} */
+            justify-content: start !important;
+            } */
 
         .navbar-brand .logo-txt {
             font-size: 10px;
@@ -763,9 +763,9 @@ justify-content: start !important;
         }
 
         /*
-.cta-content p {
-font-size: 15px;
-} */
+        .cta-content p {
+        font-size: 15px;
+        } */
     }
 
     @media (max-width:435px) {
@@ -774,8 +774,8 @@ font-size: 15px;
         }
 
         /* .cta-book {
-font-size: 12px !important;
-} */
+        font-size: 12px !important;
+        } */
 
         .content {
             top: 10%;
@@ -1442,10 +1442,10 @@ font-size: 12px !important;
                                                 <div class="form-components-style_formz-form-error--big__y-vA2">
 
                                                 </div>
-                                                
-                                                  <!-- Hidden field for reCAPTCHA token -->
-                                                  <input type="hidden" name="recaptcha_response" class="recaptcha-response">
-                                                  
+
+                                                <!-- Hidden field for reCAPTCHA token -->
+                                                <input type="hidden" name="recaptcha_response" class="recaptcha-response">
+
                                                 <div class="form-components-style_single-step-button-wrapper__modern__s0XC+" style="margin-top:25px;padding-bottom:25px;">
                                                     <div class="form-components-style_submit-wrapper__RcH-V">
                                                         <div class="form-components-style_buttonRipple__WhqyN">
