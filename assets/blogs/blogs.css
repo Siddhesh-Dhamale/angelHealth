@@ -1,0 +1,49 @@
+.blogs-sec-hero{padding-top:200px;padding-bottom:50px;}
+.blogs-sec-hero .bsh-banner{height:60vh;background: url("blogs-hero-banner.jpg") #c8c1c9 no-repeat center center;background-size: auto 100%;border-radius:15px;margin-top:50px;}
+
+section.services-sec-04 {padding:50px 0px;}
+section.services-sec-04 h2 {}
+section.services-sec-04 ul.np-tabs {padding: 0px;list-style-type: none;display: inline-flex;justify-content: center;margin: 30px 0px;border-top: 1px solid var(--color-04);border-bottom: 1px solid var(--color-04);}
+section.services-sec-04 ul.np-tabs li {padding: 0px 20px;}
+section.services-sec-04 ul.np-tabs li span {cursor: pointer;color: var(--color-04);padding: 13px 0px;border: none;border-radius: 0px;background: #ffffff;position: relative;display:inline-block;transition: all 500ms ease-in-out;}
+section.services-sec-04 ul.np-tabs li span:after {content: "";position: absolute;bottom: 0px;left: 0px;width: 100%;height: 0px;background: var(--color-04);z-index: 9;transition: all 500ms ease-in-out;}
+section.services-sec-04 ul.np-tabs li span:hover,
+section.services-sec-04 ul.np-tabs li span:focus {outline: none;border: none;}
+section.services-sec-04 .np-content {/* align-items: flex-start; *//* display: flex; *//* flex-direction: column-reverse; */}
+section.services-sec-04 .np-content .treatment-list {max-width: 45%;margin-left: 4%;overflow: hidden;text-align: center;}
+section.services-sec-04 .np-content .treatment-list > li {position: relative;margin-bottom: 10%;}
+
+
+
+section.services-sec-04 ul.np-tabs li.active span {}
+section.services-sec-04 ul.np-tabs li.is-checked span {color: var(--color-04);font-weight: 700;background: transparent;}
+section.services-sec-04 ul.np-tabs li.is-checked span:after{height:4px;transition:all 500ms ease-in-out;}
+
+.color-shape {/* max-width: 45%; *//* margin-left: 2%; */overflow: hidden;}
+.blog-post-list{display: block;position: relative;padding: 20px;margin-bottom: 30px;transition:all 500ms ease-in-out;}
+.blog-post-list:after{content:"";position:absolute;bottom:0px;width:calc(width - 30px);margin:auto;border-bottom: 1px dashed var(--color-04);}
+.blog-post-list .blog-thumbs{border-radius: 10px;overflow: hidden;transition:all 500ms ease-in-out;}
+.blog-post-list .blog-thumbs img{display: list-item;max-height: 100%;margin: auto;transition:all 500ms ease-in-out;}
+.blog-post-list .blog-txt{padding: 30px 30px 30px 30px;}
+.blog-post-list .blog-txt h3{font-size: 25px;}
+.blog-post-list .blog-txt h6{color: #cccccc;font-family: 'Nunito';font-size: 12px;margin: 0px;position: absolute;}
+.blog-post-list .blog-txt p{color:#333333;font-size: 15px;overflow: hidden;display: -webkit-box;-webkit-line-clamp:2;-webkit-box-orient: vertical;}
+
+.blog-post-list.style-image-cover .blog-thumbs{max-width: 100%;background: #d9d9d9;}
+.blog-post-list.style-image-cover .blog-thumbs img{max-width: 100%;}
+.blog-post-list.style-image-cover .blog-txt{padding-bottom:60px;/* position: absolute; */bottom: 0;left: 0;padding: 30px 30px 50px 0px;/* border-top: 1px dashed var(--color-04); */}
+.blog-post-list.style-image-cover .blog-txt h6{bottom: 30px;}
+
+.blog-post-list.style-image-text{display: flex;/* padding-top: 30px; *//* padding-bottom: 30px; */align-items: center;}
+.blog-post-list.style-image-text .blog-thumbs{text-align: center;width: 40%;height: 100%;max-height: 230px;min-height: 230px;/* position: absolute; *//* top: 30px; *//* left: 0; */background: #d9d9d9;display: flex;align-items: center;justify-content: center;overflow: hidden;position: relative;}
+.blog-post-list.style-image-text .blog-thumbs img{
+    position: absolute;
+}
+.blog-post-list.style-image-text .blog-txt{width: 70%;height: 100%;min-height: 230px;/* margin-left: 40%; */padding-right: 10px;position: relative;}
+.blog-post-list.style-image-text .blog-txt h6{bottom: 15px;}
+
+
+.blog-post-list:hover{background: #f1f1f1;text-decoration:none;border-radius: 15px;transition:all 500ms ease-in-out;}
+.blog-post-list:hover .blog-thumbs{transition:all 500ms ease-in-out;}
+.blog-post-list:hover .blog-thumbs img{transform:scale(1.3);transition:all 500ms ease-in-out;}
+

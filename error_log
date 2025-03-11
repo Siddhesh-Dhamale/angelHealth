@@ -1,0 +1,60 @@
+[06-Mar-2025 05:43:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function log_message() in /home/angelhealth/public_html/contact-e.php:102
+Stack trace:
+#0 /home/angelhealth/public_html/contact-e.php(43): brevoMailSendAPI('angelhealthcare...', 'Book Appointmen...', '\r\n    <html>\r\n ...')
+#1 {main}
+  thrown in /home/angelhealth/public_html/contact-e.php on line 102
+[10-Mar-2025 06:59:22 UTC] PHP Warning:  require(captcha_helper.php): Failed to open stream: No such file or directory in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 06:59:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'captcha_helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/angelhealth/public_html/contact-e.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 06:59:32 UTC] PHP Warning:  require(captcha_helper.php): Failed to open stream: No such file or directory in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 06:59:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'captcha_helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/angelhealth/public_html/contact-e.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 06:59:47 UTC] PHP Warning:  require(captcha_helper.php): Failed to open stream: No such file or directory in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 06:59:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'captcha_helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/angelhealth/public_html/contact-e.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 07:00:18 UTC] PHP Warning:  require(captcha_helper.php): Failed to open stream: No such file or directory in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 07:00:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'captcha_helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/angelhealth/public_html/contact-e.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 07:00:22 UTC] PHP Warning:  require(captcha_helper.php): Failed to open stream: No such file or directory in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 07:00:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'captcha_helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/angelhealth/public_html/contact-e.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 07:00:25 UTC] PHP Warning:  require(captcha_helper.php): Failed to open stream: No such file or directory in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 07:00:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'captcha_helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/angelhealth/public_html/contact-e.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 07:00:33 UTC] PHP Warning:  require(captcha_helper.php): Failed to open stream: No such file or directory in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 07:00:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'captcha_helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/angelhealth/public_html/contact-e.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 07:00:47 UTC] PHP Warning:  require(captcha_helper.php): Failed to open stream: No such file or directory in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 07:00:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'captcha_helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/angelhealth/public_html/contact-e.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 07:02:08 UTC] PHP Warning:  require(captcha_helper.php): Failed to open stream: No such file or directory in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 07:02:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'captcha_helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/angelhealth/public_html/contact-e.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/angelhealth/public_html/contact-e.php on line 2
+[10-Mar-2025 07:06:48 UTC] PHP Warning:  require(captcha_helper.php): Failed to open stream: No such file or directory in /home/angelhealth/public_html/contact-e.php on line 5
+[10-Mar-2025 07:06:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'captcha_helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/angelhealth/public_html/contact-e.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/angelhealth/public_html/contact-e.php on line 5
+[10-Mar-2025 07:08:38 UTC] PHP Warning:  require(captcha_helper.php): Failed to open stream: No such file or directory in /home/angelhealth/public_html/contact-e.php on line 5
+[10-Mar-2025 07:08:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'captcha_helper.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/angelhealth/public_html/contact-e.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/angelhealth/public_html/contact-e.php on line 5
