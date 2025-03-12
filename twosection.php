@@ -6,32 +6,6 @@
 <?php include("inc/header.php"); ?>
 
 <div class="page-wrp">
-
-
-<section class="services-sec-04 my-5">
-<div class="bg-light overflow-hidden">
-  <div class="container space-2">
-    <div class="row align-items-center p-5 ml-5">
-      <!-- Left Content -->
-      <div class="col-md-7 mb-4 mb-md-0">
-        <button class="btn btn-sm btn-secondary text-uppercase mb-2">Contact Us</button>
-        <h4 class="font-weight-bold text-dark">WE ARE READY TO GIVE YOU BACK </h4>
-        <h4 class="font-weight-bold text-dark">YOUR HAIR & CONFIDENCE</h4>
-        <p class="text-muted">Aliquam magna massa, gravida finibus fermentum sit amet.<br> consequat lacus libero.</p>
-        <a href="#" class="btn btn-dark mt-2">Book Free Consultation</a>
-      </div>
-      <!-- Right Image -->
-      <div class="col-md-3 text-md-right">
-        <img src="your-image-path.jpg" alt="Hair Confidence" class="img-fluid">
-      </div>
-    </div>
-  </div>
-</div>
-
-</section>
-
-
-<section class="services-sec-05 my-5">
 <style>
         .experience-box {
             position: absolute;
@@ -58,9 +32,35 @@
 
         }
     </style>
+
+<section class="services-sec-04 my-5">
+<div class="bg-light overflow-hidden">
+  <div class="container space-2">
+    <div class="row align-items-center p-5 ml-0 ml-md-5">
+      <!-- Left Content -->
+      <div class="col-md-7 mb-4 mb-md-0">
+        <button class="btn btn-sm btn-secondary text-uppercase mb-2">Contact Us</button>
+        <h4 class="font-weight-bold text-dark">WE ARE READY TO GIVE YOU BACK </h4>
+        <h4 class="font-weight-bold text-dark">YOUR HAIR & CONFIDENCE</h4>
+        <p class="text-muted">Aliquam magna massa, gravida finibus fermentum sit amet.<br> consequat lacus libero.</p>
+        <a href="#" class="btn btn-dark mt-2">Book Free Consultation</a>
+      </div>
+      <!-- Right Image -->
+      <div class="col-md-3 text-md-right d-none d-md-block">
+        <img src="your-image-path.jpg" alt="Hair Confidence" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+<section class="services-sec-05 my-5">
+
         <div class="container py-5">
         <div class="row align-items-center px-5">
-            <div class="col-md-6 position-relative text-center d-flex justify-content-center align-items-center">
+            <div class="col-md-6 position-relative text-center d-flex justify-content-center align-items-center mb-md-0 mb-5">
                 <img src="assets/landing/dummytest.png" class="img-fluid rounded" alt="Doctor consulting patient">
                 <div class="experience-box"><span id="count" class="font-25">0+</span>
                 <br><small>Years of Experience</small></div>
