@@ -925,6 +925,39 @@
 
         white-space: normal;
     }
+
+
+    /* CSS for CTA Created by Dinesh */
+    .services-sec-05{
+        background-color:rgba(239, 195, 119, 0.3);
+    }
+    .experience-box {
+        position: absolute;
+        bottom: -16px;
+        background: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        font-weight: bold;
+        border-bottom: 3px solid orange;
+        text-align: center;
+    }
+
+    .btn-custom {
+        background-color: #e4a048;
+        border: none;
+        color: white;
+        padding: 10px 15px;
+    }
+
+    .btn-custom:hover {
+        background-color: #cf8d3a;
+    }
+
+    .font-25 {
+        font-size: 35px;
+
+    }
 </style>
 
 
@@ -1127,9 +1160,77 @@
     </section>
 
 
+
+    <section class="services-sec-05 my-5 mt-5">
+
+        <div class="container py-5">
+            <div class="row align-items-center px-5">
+                <div
+                    class="col-md-6 position-relative text-center d-flex justify-content-center align-items-center mb-md-0 mb-5">
+                    <img src="assets/landing/dummytest.png" class="img-fluid rounded" alt="Doctor consulting patient">
+                    <div class="experience-box"><span id="count" class="font-25">0+</span>
+                        <br><small>Years of Experience</small>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2>We're Tressa Hair Clinic</h2>
+                    <p>Get started swiftly & easily by importing a demo of your choice in a single click. Over 30
+                        high-quality professionally designed pre-built website concepts to choose from.</p>
+                    <p>Tressa is a modern business theme that lets you build stunning high-performance websites using a
+                        fully visual interface. Start with any of the demos below or build one on your own. Exponent is
+                        a perfect blend of spacious layouts and precise typography.</p>
+                    <button class="btn btn-custom">Make an Appointment</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="about-sec-video" id="corporate-video">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="brand-video-wrp">
+                        <video id="myVideo" loop muted autoplay playsinline
+                            title="A group of people happy in the video with Angel Health Care Services.">
+                            <source src="video/Angel-Health-Centre-Be-The-Star.mp4" type="video/mp4">
+                        </video>
+
+                        <!-- <a href="video/Angel-Health-Centre-Be-The-Star.mp4" class="w-play-video html5lightbox"><span class="sv-playvideo"> <img src="assets/templates/img/play-video.svg" class="img-fluid gm-observing gm-observing-cb" alt="" loading="lazy"></span><video id="myVideo" loop muted autoplay playsinline title="A group of people happy in the video with Angel Health Care Services."><source src="video/Angel-Health-Centre-Be-The-Star.mp4" type="video/mp4"></video></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CTAs Created by Dinesh -->
+
+    <section class="services-sec-04 my-5">
+        <div class="bg-light overflow-hidden">
+            <div class="container space-2">
+                <div class="row align-items-center p-5 ml-0 ml-md-5">
+                    <!-- Left Content -->
+                    <div class="col-md-7 mb-4 mb-md-0">
+                        <button class="btn btn-sm btn-secondary text-uppercase mb-2">Contact Us</button>
+                        <h4 class="font-weight-bold text-dark">WE ARE READY TO GIVE YOU BACK </h4>
+                        <h4 class="font-weight-bold text-dark">YOUR HAIR & CONFIDENCE</h4>
+                        <p class="text-muted">Aliquam magna massa, gravida finibus fermentum sit amet.<br> consequat
+                            lacus libero.</p>
+                        <a href="#" class="btn btn-dark mt-2">Book Free Consultation</a>
+                    </div>
+                    <!-- Right Image -->
+                    <div class="col-md-3 text-md-right d-none d-md-block">
+                        <img src="your-image-path.jpg" alt="Hair Confidence" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
     <!-- FAQs section -->
-    <section class="faqs-services d-block d-md-none ">
-        <div class="container .d-md-none .d-lg-block">
+    <section class="faqs-services">
+        <div class="container">
             <div class="row">
                 <div class="col-md-10 mx-auto text-center">
                     <h3 class="sc_h2" style="">
@@ -1322,7 +1423,27 @@
     </section>
 
     <!-- Bootstrap JS (Optional if you need JS features) -->
+    <script>
+        function animateCounter(element, start, end, duration) {
+            let startTime = null;
 
+            function updateCounter(timestamp) {
+                if (!startTime) startTime = timestamp;
+                let progress = Math.min((timestamp - startTime) / duration, 1);
+                let value = Math.floor(progress * (end - start) + start);
+                element.innerHTML = value + "+";
+
+                if (progress < 1) {
+                    requestAnimationFrame(updateCounter);
+                }
+            }
+
+            requestAnimationFrame(updateCounter);
+        }
+
+        let countElement = document.getElementById("count");
+        animateCounter(countElement, 0, 31, 2500); // 2-second animation
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <?php include("inc/footer.php"); ?>
