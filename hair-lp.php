@@ -226,6 +226,7 @@
     }
 
     .card-title {
+        width: max-content;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -823,9 +824,31 @@
         padding-top: 100px;
     }
 
+
+
+    .step-number {
+        background-color: #333;
+        color: #fff;
+        display: inline-block;
+        padding: 5px 12px;
+        border-radius: 20px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .step-description {
+        font-size: 14px;
+        color: #555;
+    }
+
+    .concern {
+        margin-top: 6rem !important;
+    }
+
     .steps-section {
         background: rgba(160, 94, 193, 0.2);
-        /* Background color similar to the image */
         padding: 80px 20px;
         text-align: center;
         color: #fff;
@@ -846,12 +869,6 @@
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     }
 
-    .step-icon {
-        width: 60px;
-        height: 60px;
-        margin-bottom: 15px;
-    }
-
     .step-number {
         background-color: #333;
         color: #fff;
@@ -859,13 +876,14 @@
         padding: 5px 12px;
         border-radius: 20px;
         font-size: 14px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .step-title {
         font-weight: 600;
-        margin-bottom: 10px;
-        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 23px;
     }
 
     .step-description {
@@ -873,8 +891,39 @@
         color: #555;
     }
 
-    .concern {
-        margin-top: 6rem !important;
+    /* Responsive vertical spacing */
+    .step-div {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        max-width: 33.333333%;
+    }
+
+    @media (max-width: 767.98px) {
+        .step-div {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .step-box-custom {
+            flex-direction: column;
+        }
+
+        .step-div {
+            max-width: 100%;
+        }
+    }
+
+    /* Optional: Add gap on large screens for better spacing */
+    .row.g-4 {
+        --bs-gutter-y: 2rem;
+        /* Vertical gap between rows */
+    }
+
+    .accordion button .acc_txt {
+
+        white-space: normal;
     }
 </style>
 
@@ -889,70 +938,61 @@
             <div class="card border-0 col-md-5 col-10">
                 <img src="assets/landing/Skin-1.png" alt="Card Image">
                 <div class="op"></div>
-                <div class="card-title">Skin</div>
-                <!-- <div class="card-overlay">
+                <div class="card-title">Follicle Fusion Hair Transplant</div>
+                <div class="card-overlay">
                     <div class="card-details">
                         <ul class="position-relative">
-                            <li class="position-relative">Acne</li>
-                            <li class="position-relative">Pigmentation</li>
-                            <li class="position-relative">Lightening</li>
-                            <li class="position-relative">Wrinkle Erase</li>
+                            <li>Duration of treatment - 90 minutes</li>
+                            <li>No. of sessions - 04</li>
                         </ul>
                     </div>
-                    <button class="view-details"><a href="skin.php">Explore</a></button>
-                </div> -->
+                    <button class="view-details"><a href="#">Explore</a></button>
+                </div>
             </div>
 
             <div class="card border-0 col-md-5 col-10">
                 <img src="assets/landing/933x750-1.png" alt="Card Image">
                 <div class="op"></div>
-                <div class="card-title">Hair</div>
-                <!-- <div class="card-overlay">
+                <div class="card-title">Mane Revival Treatment</div>
+                <div class="card-overlay">
                     <div class="card-details">
-                        <ul>
-                            <li>Hair Transplant</li>
-                            <li>Mane Revival</li>
-                            <li>Bald Patches</li>
-                            <li>Hairline Correction</li>
+                        <ul class="position-relative">
+                            <li>Duration of treatment - 90 minutes</li>
+                            <li>No. of sessions - 01</li>
                         </ul>
                     </div>
-                    <button class="view-details"><a href="hair.php">Explore</a></button>
-                </div> -->
+                    <button class="view-details"><a href="#">Explore</a></button>
+                </div>
             </div>
 
             <div class="card border-0 col-md-5 col-10">
                 <img src="assets/landing/Weight-1.png" alt="Card Image">
                 <div class="op"></div>
-                <div class="card-title">Weight</div>
-                <!-- <div class="card-overlay">
+                <div class="card-title">Bald Patches Correction</div>
+                <div class="card-overlay">
                     <div class="card-details">
-                        <ul>
-                            <li>Tummy Tuck</li>
-                            <li>Thighs Tuck</li>
-                            <li>Arms Tuck</li>
-                            <li>Gynecomastia</li>
+                        <ul class="position-relative">
+                            <li>Duration of treatment - 90 minutes</li>
+                            <li>No. of sessions - 02</li>
                         </ul>
-
                     </div>
-                    <button class="view-details"><a href="weight.php">Explore</a></button>
-                </div> -->
+                    <button class="view-details"><a href="#">Explore</a></button>
+                </div>
             </div>
 
             <div class="card border-0 col-md-5 col-10">
                 <img src="assets/landing/Health-1.png" alt="Card Image">
                 <div class="op"></div>
-                <div class="card-title">Health</div>
-                <!-- <div class="card-overlay">
+                <div class="card-title">Edge Enhance Hairline Correction</div>
+                <div class="card-overlay">
                     <div class="card-details">
-                        <ul>
-                            <li>Reverse Diabetes</li>
-                            <li>Thyroid Hormones</li>
-                            <li>PCOD</li>
-                            <li>Obesity</li>
+                        <ul class="position-relative">
+                            <li>Duration of treatment - 90 minutes</li>
+                            <li>No. of sessions - 02</li>
                         </ul>
                     </div>
-                    <button class="view-details"><a href="health.php">Explore</a></button>
-                </div> -->
+                    <button class="view-details"><a href="#">Explore</a></button>
+                </div>
             </div>
         </div>
     </div>
@@ -968,21 +1008,17 @@
                 <div class="overlay_01"></div>
                 <div class="tl_box">
                     <div class="t_heading">
-                        <h4 class="fw-bold">The Expert Behind the Name </h4>
+                        <h4 class="fw-bold">Follicle Fusion Hair Transplant</h4>
                     </div>
-                    <!-- <div class="t_para">
-                        <p>Our comprehensive acne treatment targets breakouts at the root, addressing inflammation and preventing future eruptions. Through a combination of advanced skincare techniques and personalized treatment plans, we restore clarity and confidence to your complexion.</p>
-                    </div> -->
+                    <div class="t_para">
+                        <p>Experience a revolutionary solution for hair loss with our hair transplant procedure. Using
+                            state-of-the-art techniques, we carefully transplant healthy hair follicles from donor areas
+                            to restore a full and natural-looking head of hair.</p>
+                    </div>
                     <ul class="t_list">
-                        <!-- <li>Director & Chairperson, Gorgeous Skin Pvt. Ltd.</li> -->
-                        <li>One of India’s Leading Cosmetic Dermatologists</li>
-                        <li>Pioneer of Autologous Fat Transplantation for Wrinkle Treatment</li>
-                        <li>Internationally Trained at Fairview Cosmetic Surgery Centre, Toronto</li>
-                        <li>Over 30 years of experience in Dermatology & Aesthetic Medicine</li>
-                        <li>Founder of Gorgeous Skin & Nutrition Training Academy</li>
-
+                        <li>Duration of treatment - 90 minutes</li>
+                        <li>No. of sessions - 04</li>
                     </ul>
-
                 </div>
             </div>
 
@@ -990,15 +1026,18 @@
                 <div class="overlay_01"></div>
                 <div class="tl_box">
                     <div class="t_heading">
-                        <h4 class="fw-bold">Achievements & Accolades</h4>
+                        <h4 class="fw-bold">Mane Revival Treatment
+                        </h4>
+                    </div>
+                    <div class="t_para">
+                        <p>Discover the ultimate solution for hair loss with our Mane Revival treatment program. Our
+                            comprehensive approach targets the underlying causes of hair thinning, combining advanced
+                            therapies and customized treatment plans to stimulate hair growth and improve hair density.
+                        </p>
                     </div>
                     <ul class="t_list">
-                        <li>Official Beauty & Wellness Expert for:</li>
-                        <li>Femina Miss India 2009, 2010</li>
-                        <li>Grazia Ford Supermodel of the World India 2008</li>
-                        <li>Internationally Trained at Fairview Cosmetic Surgery Centre, Toronto</li>
-                        <li>Scooty Teen Diva India International 2008</li>
-                        <li>Trained Thousands of Doctors & Aesthetic Professionals</li>
+                        <li>Duration of treatment - 90 minutes</li>
+                        <li>No. of sessions - 01</li>
 
                     </ul>
                 </div>
@@ -1008,12 +1047,17 @@
                 <div class="overlay_01"></div>
                 <div class="tl_box " style="min-height: auto;">
                     <div class="t_heading">
-                        <h4 class="fw-bold">Guest Speaker at Prestigious Events</h4>
+                        <h4 class="fw-bold">Bald Patches Correction</h4>
+                    </div>
+                    <div class="t_para">
+                        <p>Say goodbye to bald patches and enjoy a full, luscious mane with our specialized bald patches
+                            correction treatments, using advanced techniques to stimulate hair follicle growth and fill
+                            in sparse areas. Using cutting-edge techniques, we address areas of hair loss with precision
+                            and artistry, seamlessly blending natural-looking hair growth to fill in sparse patches.</p>
                     </div>
                     <ul class="t_list">
-                        <li>FICCI Incredible India Wellness 2011</li>
-                        <li>International Cosmoderm Congress</li>
-                        <li>Speaker & Workshop Mentor at Global Conferences</li>
+                        <li>Duration of treatment - 90 minutes</li>
+                        <li>No. of sessions - 02</li>
 
                     </ul>
                 </div>
@@ -1023,11 +1067,17 @@
                 <div class="overlay_01"></div>
                 <div class="tl_box " style="min-height: auto;">
                     <div class="t_heading">
-                        <h4 class="fw-bold">Active Member & Leadership Roles</h4>
+                        <h4 class="fw-bold">Edge Enhance Hairline Correction</h4>
+                    </div>
+                    <div class="t_para">
+                        <p>Enhance your facial harmony and redefine your hairline with our expert hairline correction
+                            procedures. Whether addressing receding hairlines or asymmetrical features, our expert team
+                            utilizes advanced techniques to sculpt a harmonious and youthful hairline that complements
+                            your facial features.</p>
                     </div>
                     <ul class="t_list">
-                        <li>Cosmetology Society of India (Certified Life Member)</li>
-                        <li>Medical Wing President, Giants International, Mumbai</li>
+                        <li>Duration of treatment - 90 minutes</li>
+                        <li>No. of sessions - 02</li>
                     </ul>
                 </div>
             </div>
@@ -1042,11 +1092,10 @@
         <div class="container">
             <h2 class="mb-5">Our great 3 steps for treatment</h2>
 
-            <div class="row justify-content-center g-4">
+            <div class="row step-box-custom justify-content-center g-4">
                 <!-- Step 1 -->
-                <div class="col-md-4 d-flex">
-                    <div class="step-card mx-auto">
-                        <!-- <img src="https://cdn-icons-png.flaticon.com/512/706/706797.png" alt="Step 1" class="step-icon"> -->
+                <div class="col-md-4 d-flex step-div">
+                    <div class="step-card mx-auto w-100">
                         <div class="step-number">Step 1</div>
                         <h4 class="step-title">Doctor Consultation</h4>
                         <p class="step-description">These theme is insanely flexible and amazingly easy to use. This
@@ -1055,10 +1104,8 @@
                 </div>
 
                 <!-- Step 2 -->
-                <div class="col-md-4 d-flex">
-                    <div class="step-card mx-auto">
-                        <!-- <img src="https://cdn-icons-png.flaticon.com/512/3048/3048398.png" alt="Step 2"
-                            class="step-icon"> -->
+                <div class="col-md-4 d-flex step-div">
+                    <div class="step-card mx-auto w-100">
                         <div class="step-number">Step 2</div>
                         <h4 class="step-title">Digital Diagnosis</h4>
                         <p class="step-description">These theme is insanely flexible and amazingly easy to use. This
@@ -1067,14 +1114,207 @@
                 </div>
 
                 <!-- Step 3 -->
-                <div class="col-md-4 d-flex">
-                    <div class="step-card mx-auto">
-                        <!-- <img src="https://cdn-icons-png.flaticon.com/512/2917/2917242.png" alt="Step 3"
-                            class="step-icon"> -->
+                <div class="col-md-4 d-flex step-div">
+                    <div class="step-card mx-auto w-100">
                         <div class="step-number">Step 3</div>
                         <h4 class="step-title">Safe & Holistic Treatment</h4>
                         <p class="step-description">These theme is insanely flexible and amazingly easy to use. This
                             alone would be enough for a 5 star rating.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FAQs section -->
+    <section class="faqs-services d-block d-md-none ">
+        <div class="container .d-md-none .d-lg-block">
+            <div class="row">
+                <div class="col-md-10 mx-auto text-center">
+                    <h3 class="sc_h2" style="">
+                        <div
+                            style="color: #632963; display: block; text-align: center; position: relative; background-position-x: 0%;">
+                            Got questions? </div>
+                        <div
+                            style="color:#632963; display: block; text-align: center; position: relative; background-position-x: 0%;">
+                            Find answers here.</div>
+                    </h3>
+                </div>
+                <div class="col-md-4 mx-auto text-center">
+                    <div class="seprator-color">
+                        <div class="s-star"></div>
+                        <div class="s-line"></div>
+                    </div>
+                </div>
+                <div class="col-md-9 mx-auto">
+                    <div class="accordion" id="accordionExample-02">
+
+                        <div class="card color-shape Hair">
+                            <div class="card-header" id="heading_0-21">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-21" aria-expanded="false"
+                                    aria-controls="collapse_0-21"><span class="acc_txt">What is a hair
+                                        transplant?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-21" class="collapse" aria-labelledby="heading_0-21"
+                                data-parent="#accordionExample-02" style="">
+                                <div class="card-body">
+                                    <p>A hair transplant is a surgical procedure that involves moving hair follicles
+                                        from one part of the scalp (donor site) to areas with thinning or balding hair
+                                        (recipient site) to restore natural hair growth.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Hair">
+                            <div class="card-header" id="heading_0-22">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-22" aria-expanded="false"
+                                    aria-controls="collapse_0-22"><span class="acc_txt">What hair loss treatments do you
+                                        offer?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-22" class="collapse" aria-labelledby="heading_0-22"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>We offer a range of hair loss treatments tailored to individual needs, including
+                                        topical solutions, oral medications, and hair transplant procedures.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Hair">
+                            <div class="card-header" id="heading_0-23">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-23" aria-expanded="false"
+                                    aria-controls="collapse_0-23"><span class="acc_txt">Can you treat bald
+                                        patches?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-23" class="collapse" aria-labelledby="heading_0-23"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Yes, we specialize in treating bald patches using advanced techniques such as
+                                        hair transplantation, and scalp micropigmentation to restore hair density and
+                                        natural-looking results.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Hair">
+                            <div class="card-header" id="heading_0-24">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-24" aria-expanded="false"
+                                    aria-controls="collapse_0-24"><span class="acc_txt">Do you provide hairline
+                                        correction treatments?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-24" class="collapse" aria-labelledby="heading_0-24"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Yes, our hairline correction treatments aim to enhance and refine the natural
+                                        hairline, addressing issues such as receding hairlines, uneven hairlines, and
+                                        hair loss along the frontal area for a more balanced and aesthetically pleasing
+                                        appearance.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Hair">
+                            <div class="card-header" id="heading_0-25">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-25" aria-expanded="false"
+                                    aria-controls="collapse_0-25"><span class="acc_txt">What is laser hair
+                                        removal?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-25" class="collapse" aria-labelledby="heading_0-24"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Laser hair removal is a non-invasive procedure that uses concentrated laser light
+                                        to target and remove unwanted hair follicles, providing long-term hair reduction
+                                        and smoother skin texture.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Hair">
+                            <div class="card-header" id="heading_0-26">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-26" aria-expanded="false"
+                                    aria-controls="collapse_0-26"><span class="acc_txt">Are your hair treatments safe
+                                        and effective?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-26" class="collapse" aria-labelledby="heading_0-26"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Yes, our hair treatments are performed by experienced professionals using
+                                        state-of-the-art equipment and techniques, ensuring safety, efficacy, and
+                                        natural-looking results for our clients.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Hair">
+                            <div class="card-header" id="heading_0-27">
+
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-27" aria-expanded="false"
+                                    aria-controls="collapse_0-27"><span class="acc_txt">How long does it take to see
+                                        results from hair treatments?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-27" class="collapse" aria-labelledby="heading_0-27"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>The timeline for results varies depending on the type of treatment and individual
+                                        factors. While some treatments may show immediate improvements, others may
+                                        require multiple sessions for optimal results. Our team will discuss expected
+                                        timelines during your consultation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Hair">
+                            <div class="card-header" id="heading_0-28">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-28" aria-expanded="false"
+                                    aria-controls="collapse_0-28"><span class="acc_txt">What is the cost of hair
+                                        treatments?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-28" class="collapse" aria-labelledby="heading_0-28"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>The cost of hair treatments varies depending on the specific procedure, treatment
+                                        plan, and individual needs. Our team will provide detailed pricing information
+                                        during your consultation, including any financing options available.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Hair">
+                            <div class="card-header" id="heading_0-29">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-29" aria-expanded="false"
+                                    aria-controls="collapse_0-29"><span class="acc_txt">Are there any side effects or
+                                        risks associated with hair treatments?</span> <span
+                                        class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-29" class="collapse" aria-labelledby="heading_0-29"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Like any medical procedure, there may be potential risks and side effects
+                                        associated with hair treatments. These may include temporary redness, swelling
+                                        or discomfort, which typically resolve within a few days. Our team will discuss
+                                        potential risks and benefits during your consultation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Hair">
+                            <div class="card-header" id="heading_0-30">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-30" aria-expanded="false"
+                                    aria-controls="collapse_0-30"><span class="acc_txt">Do you offer hair care products
+                                        or recommendations?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-30" class="collapse" aria-labelledby="heading_0-30"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>We provide personalized hair care recommendations and may give lifestyle
+                                        suggestions to complement your treatment and maintain healthy hair.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
