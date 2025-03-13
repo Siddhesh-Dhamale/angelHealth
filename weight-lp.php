@@ -78,7 +78,7 @@
 
     <section class="banerCont pt-5 mt-5 about-sec-hero ">
         <div class="position-relative ">
-            <img class="w-100 hBanner desktopHero" src="assets/landing/skin 1440x550.jpg" alt="banner">
+            <img class="w-100 hBanner desktopHero" src="assets/landing/wright-1440x550.jpg" alt="banner">
             <span class="w-100 hBanner mobileHero SHW-mobilebg"></span>
             <div class="Bannercontent">
                 <!-- <a onclick="openModal()" class="ctabtn" href="javascript:void(0);" id="getStartedBtn">
@@ -438,7 +438,7 @@
         <div class="row justify-content-center">
 
             <div class="card border-0 col-md-5 col-10">
-                <img src="assets/landing/services/weight 1.jpg" alt="Card Image">
+                <img src="assets/landing/services/Weight 1.jpg" alt="Card Image">
                 <div class="op"></div>
                 <div class="card-title">Follicle Fusion Hair Transplant</div>
                 <!-- <div class="card-overlay">
@@ -452,7 +452,7 @@
             </div>
 
             <div class="card border-0 col-md-5 col-10">
-                <img src="assets/landing/services/weight 2.jpg" alt="Card Image">
+                <img src="assets/landing/services/Weight 2.jpg" alt="Card Image">
                 <div class="op"></div>
                 <div class="card-title">Mane Revival Treatment</div>
                 <!-- <div class="card-overlay">
@@ -466,7 +466,7 @@
             </div>
 
             <div class="card border-0 col-md-5 col-10">
-                <img src="assets/landing/services/weight 3.jpg" alt="Card Image">
+                <img src="assets/landing/services/Weight 3.jpg" alt="Card Image">
                 <div class="op"></div>
                 <div class="card-title">Bald Patches Correction</div>
                 <!-- <div class="card-overlay">
@@ -480,7 +480,7 @@
             </div>
 
             <div class="card border-0 col-md-5 col-10">
-                <img src="assets/landing/services/weight 4.jpg" alt="Card Image">
+                <img src="assets/landing/services/Weight 4.jpg" alt="Card Image">
                 <div class="op"></div>
                 <div class="card-title">Edge Enhance Hairline Correction</div>
                 <!-- <div class="card-overlay">
