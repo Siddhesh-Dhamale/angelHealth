@@ -92,6 +92,7 @@
 
 a:hover {
   text-decoration: none !important;
+  color: unset;
 }
 
 .logo-txt {
@@ -156,11 +157,11 @@ a:hover {
 }
 
 .card-title {
+  width: 100%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
-  font-size: 1.5rem;
   margin-bottom: 20px;
   font-weight: bold;
   text-align: center;
@@ -425,7 +426,7 @@ A:hover {
 }
 
 .viewPlan {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .desktopHero {
@@ -477,7 +478,7 @@ A:hover {
 .Bannercontent {
   position: absolute;
   top: 10%;
-  left: 10%;
+  right: 10%;
   width: 45%;
 }
 .bannerCards {
@@ -495,6 +496,7 @@ input::placeholder {
 
 .horizontalFormCont {
   background-color: #f2edf0;
+  margin-top: -35px;
 }
 
 .horizontalFormCont .formaloo__field-title {
@@ -506,10 +508,58 @@ input::placeholder {
 }
 
 .horizontalForm {
-  gap: 20px;
+  /* gap: 20px; */
+}
+.horizontalForm input {
+  border-radius: 0 !important;
+  border: 1px solid #f3edf0;
 }
 
 /* skin page end*/
+/* tetsimonial */
+.testimonial-section {
+  text-align: center;
+  /* padding: 50px 20px; */
+  background-color: #fff;
+}
+
+.testimonial-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  /* margin-bottom: 20px; */
+}
+
+.google-logo img {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.testimonial-carousel img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  background-color: transparent !important;
+  border: 0 !important;
+  color: black !important;
+}
+/* tetsimonial */
 
 /* Tabish  */
 
@@ -531,9 +581,12 @@ input::placeholder {
 .concern {
   margin-top: 6rem !important;
 }
+.SHW-concern {
+  margin-top: 1rem !important;
+}
 
 .steps-section {
-  background: rgba(160, 94, 193, 0.2) !important;
+  background: #f3edf0 !important;
   padding: 80px 20px;
   text-align: center;
   color: #fff;
@@ -640,6 +693,12 @@ input::placeholder {
 .font-25 {
   font-size: 35px;
 }
+/*  */
+
+.SHW-mobilebg {
+  height: 75vh;
+  background-color: #f3edf0;
+}
 
 /* Tabish  */
 
@@ -669,6 +728,11 @@ input::placeholder {
 }
 
 /* Dinesh * */
+@media (max-width: 1040px) {
+  .Bannercontent {
+    top: 5%;
+  }
+}
 
 @media (max-width: 1120px) {
   .content {
@@ -698,6 +762,21 @@ input::placeholder {
 
   .cta-content p {
     font-size: 16px;
+  }
+  .Bannercontent {
+    top: 1%;
+    right: 0%;
+    width: 60%;
+  }
+
+  .Bannercontent h3 {
+    font-size: 35px;
+  }
+  .bannerCards {
+    top: 0;
+  }
+  .horizontalFormCont {
+    margin-top: 0;
   }
 }
 
@@ -745,6 +824,9 @@ input::placeholder {
 
   .number .mobile {
     display: none;
+  }
+  .Bannercontent h3 {
+    font-size: 23px;
   }
 }
 
@@ -802,10 +884,6 @@ input::placeholder {
     font-size: 15px !important;
   }
 
-  /* .logo {
-            justify-content: start !important;
-            } */
-
   .navbar-brand .logo-txt {
     font-size: 10px;
   }
@@ -844,6 +922,36 @@ input::placeholder {
     border-top: 1px solid #ccc !important;
     border-left: none !important;
   }
+  .Bannercontent {
+    width: 95%;
+    top: 5%;
+  }
+  .shw-home-button {
+    font-size: 10px !important;
+  }
+  .skinCta {
+    padding: 5px 15px !important;
+  }
+  .SHW-concern h1 {
+    font-size: 25px;
+  }
+  .steps-section {
+    padding: 80px 0px;
+  }
+  .services-sec-05 .container,
+  .services-sec-05 .row {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .testimonial-section, .testimonial-section .container {
+    padding-left: 2px;
+    padding-right: 2px;
+    max-width: 100% !important;
+  }
+  .card-title{
+    font-size: 30px;
+  }
+
 }
 
 @media (max-width: 558px) {

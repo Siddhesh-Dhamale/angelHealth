@@ -4,7 +4,7 @@
 <?php include("inc/css.php"); ?>
 <?php include("inc/slick-carousel.php"); ?>
 <?php include("inc/popup.php"); ?>
-
+<link rel="stylesheet" href="assets/landing/landing.css" />
 <!-- Include jQuery (ensure it's loaded before Slick) -->
 <!-- Swiper CSS -->
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />

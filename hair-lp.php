@@ -4,6 +4,8 @@
 <?php include("inc/css.php"); ?>
 <?php include("inc/slick-carousel.php"); ?>
 <link rel="stylesheet" href="assets/services/services.css">
+<link rel="stylesheet" href="assets/landing/landing.css" />
+
 
 
 <!-- Include jQuery (ensure it's loaded before Slick) -->
@@ -74,32 +76,30 @@
 
 <div class="page-wrp overflow-visible  position-static">
 
-    <section class="banerCont py-5 mt-5 about-sec-hero ">
+    <section class="banerCont pt-5 mt-5 about-sec-hero ">
         <div class="position-relative ">
-            <img class="w-100 hBanner desktopHero" src="assets/landing/wright 1440x550.jpg" alt="banner">
-            <img class="w-100 hBanner mobileHero" src="assets/landing/Mobile-size-Banner-750x850.jpg" alt="banner">
+            <img class="w-100 hBanner desktopHero" src="assets/landing/skin 1440x550.jpg" alt="banner">
+            <span class="w-100 hBanner mobileHero SHW-mobilebg"></span>
             <div class="Bannercontent">
                 <!-- <a onclick="openModal()" class="ctabtn" href="javascript:void(0);" id="getStartedBtn">
                     <span class="menu-text">Get Started</span>
                 </a> -->
                 <p>#Ranked Hair Clinic in London</p>
                 <h3>Life isn't Perfect but Your hair can be </h3>
-                <div class="row">
+                <div class="row ">
                     <div class="col-6 border-bottom border-1">hair treatment</div>
                     <div class="col-6 border-bottom border-1">hair treatment</div>
                     <div class="col-6 border-bottom border-1">hair treatment</div>
                     <div class="col-6 border-bottom border-1">hair treatment</div>
                     <div class="col-6 border-bottom border-1">hair treatment</div>
                     <div class="col-6 border-bottom border-1">hair treatment</div>
-                </div>
-                <div class="d-flex gap10 py-2">
-                    <a onclick="openModal()" class="ctabtn skinCta rounded" href="javascript:void(0);" id="getStartedBtn">
-                        <span class="menu-text">Make a appointment</span>
-                    </a>
-                    <a href="tel:+91 90042 64646" class="skinBannerCall skinCta ctabtn rounded">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <span class="menu-text">+91 90042 64646</span>
-                    </a>
+                    <div class="col-6 mt-3"><a onclick="openModal()" class="ctabtn skinCta rounded" href="javascript:void(0);" id="getStartedBtn">
+                            <span class="menu-text shw-home-button ">Make a appointment</span>
+                        </a></div>
+                    <div class="col-6 mt-3"> <a href="tel:+91 90042 64646" class="skinBannerCall skinCta ctabtn rounded ">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <span class="menu-text shw-home-button ">+91 90042 64646</span>
+                        </a></div>
                 </div>
             </div>
             <div class="bannerCards row justify-content-center">
@@ -129,13 +129,13 @@
 
                         </div>
                     </div>
-                    <div class="w-100 form-components-style_single-step-content__modern__buV1h form-theme-field-border py-5">
-                        <div class="formz-fields-wrapper horizontalForm d-flex align-items-center justify-content-center">
-                            <div>
+                    <div class="w-100 form-components-style_single-step-content__modern__buV1h form-theme-field-border py-4">
+                        <div class="formz-fields-wrapper horizontalForm row align-items-center justify-content-center">
+                            <div class="col-lg-2 col-md-2 col-8 text-center">
                                 Counsult Now :
                             </div>
-                            <div class="fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc" id="formz_singleStep_field_AaXE5FjT">
-                                <div>
+                            <div class="col-lg-2 col-md-2 col-8 fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc" id="formz_singleStep_field_AaXE5FjT">
+                                <div class="w-100">
                                     <label class="fields-global_form-field-and-label-holder__OiTHf" style="width:100%">
                                         <div class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title"></span>
                                         </div>
@@ -149,8 +149,8 @@
                                     </label>
                                 </div>
                             </div>
-                            <div class="fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc" id="formz_singleStep_field_yuH9dxD1">
-                                <div>
+                            <div class="col-lg-2 col-md-2 col-8 fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc" id="formz_singleStep_field_yuH9dxD1">
+                                <div class="w-100">
                                     <label class="fields-global_form-field-and-label-holder__OiTHf" style="width:100%;">
                                         <div class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title"></span>
                                         </div>
@@ -162,8 +162,8 @@
                                     </label>
                                 </div>
                             </div>
-                            <div class="fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc" id="formz_singleStep_field_XxPfAip9">
-                                <div>
+                            <div class="col-lg-2 col-md-2 col-8 fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc" id="formz_singleStep_field_XxPfAip9">
+                                <div class="w-100">
                                     <label class="fields-global_form-field-and-label-holder__OiTHf" style="width:100%; margin:auto;">
                                         <div class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title"></span>
                                         </div>
@@ -177,21 +177,15 @@
                                     </label>
                                 </div>
                             </div>
-                            <div class="fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc">
-                                <button class="form-components-style_form-button-submit__ZzOBZ enabled form-theme-button formaloo__submit-button form-components-style_form-button-submit__modern__lOolW formaloo__button ctabtn rounded px-5 py-2 border-0" raised="true" type="submit">
+                            <!-- Hidden field for reCAPTCHA token -->
+                            <input type="hidden" name="recaptcha_response" class="recaptcha-response">
+
+                            <div class="col-lg-2 col-md-2 col-8 fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc">
+                                <button class="w-100 form-components-style_form-button-submit__ZzOBZ enabled form-theme-button formaloo__submit-button form-components-style_form-button-submit__modern__lOolW formaloo__button ctabtn rounded py-2 border-0" raised="true" type="submit">
                                     <div class="font-weight-bold">Next</div>
                                 </button>
                             </div>
-
                         </div>
-                        <div class="form-components-style_formz-form-error--big__y-vA2">
-
-                        </div>
-
-                        <!-- Hidden field for reCAPTCHA token -->
-                        <input type="hidden" name="recaptcha_response" class="recaptcha-response">
-
-
                     </div>
                 </form>
             </div>
@@ -209,7 +203,7 @@
 
 
 
-
+    <!-- popup -->
     <div class=" position-relative" id="">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -439,160 +433,69 @@
 
 
     <!-- Unlock stunning hair,one treatement at a time section  -->
-    <div class="concern">
+    <div class="concern SHW-concern">
         <h1 class="pb-4 text-center">Unlock stunning hair,<br> one treatement at a time</h1>
         <div class="row justify-content-center">
 
             <div class="card border-0 col-md-5 col-10">
-                <img src="assets/landing/Skin-1.png" alt="Card Image">
+                <img src="assets/landing/services/hair 1.jpg" alt="Card Image">
                 <div class="op"></div>
                 <div class="card-title">Follicle Fusion Hair Transplant</div>
-                <div class="card-overlay">
+                <!-- <div class="card-overlay">
                     <div class="card-details">
-                        <ul class="position-relative">
+                        <ul class="position-relative text-center">
                             <li>Duration of treatment - 90 minutes</li>
                             <li>No. of sessions - 04</li>
                         </ul>
                     </div>
-                    <button class="view-details"><a href="#">Explore</a></button>
-                </div>
+                </div> -->
             </div>
 
             <div class="card border-0 col-md-5 col-10">
-                <img src="assets/landing/933x750-1.png" alt="Card Image">
+                <img src="assets/landing/services/hair 2.jpg" alt="Card Image">
                 <div class="op"></div>
                 <div class="card-title">Mane Revival Treatment</div>
-                <div class="card-overlay">
+                <!-- <div class="card-overlay">
                     <div class="card-details">
-                        <ul class="position-relative">
+                        <ul class="position-relative text-center">
                             <li>Duration of treatment - 90 minutes</li>
                             <li>No. of sessions - 01</li>
                         </ul>
                     </div>
-                    <button class="view-details"><a href="#">Explore</a></button>
-                </div>
+                </div> -->
             </div>
 
             <div class="card border-0 col-md-5 col-10">
-                <img src="assets/landing/Weight-1.png" alt="Card Image">
+                <img src="assets/landing/services/hair 3.jpg" alt="Card Image">
                 <div class="op"></div>
                 <div class="card-title">Bald Patches Correction</div>
-                <div class="card-overlay">
+                <!-- <div class="card-overlay">
                     <div class="card-details">
-                        <ul class="position-relative">
+                        <ul class="position-relative text-center">
                             <li>Duration of treatment - 90 minutes</li>
                             <li>No. of sessions - 02</li>
                         </ul>
                     </div>
-                    <button class="view-details"><a href="#">Explore</a></button>
-                </div>
+                </div> -->
             </div>
 
             <div class="card border-0 col-md-5 col-10">
-                <img src="assets/landing/Health-1.png" alt="Card Image">
+                <img src="assets/landing/services/hair 4.jpg" alt="Card Image">
                 <div class="op"></div>
                 <div class="card-title">Edge Enhance Hairline Correction</div>
-                <div class="card-overlay">
+                <!-- <div class="card-overlay">
                     <div class="card-details">
-                        <ul class="position-relative">
+                        <ul class="position-relative text-center">
                             <li>Duration of treatment - 90 minutes</li>
                             <li>No. of sessions - 02</li>
                         </ul>
                     </div>
-                    <button class="view-details"><a href="#">Explore</a></button>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 
     <!-- Treatments Section  -->
-
-    <!-- <section class="aboutDR container py-5 services-sec-04">
-               
-
-                <div class="np-content grid portfolioContainer justify-content-center">
-
-                    <div class="color-shape treatment-list col-md-6 skin-health">
-                        <div class="overlay_01"></div>
-                        <div class="tl_box">
-                            <div class="t_heading">
-                                <h4 class="fw-bold">Follicle Fusion Hair Transplant</h4>
-                            </div>
-                            <div class="t_para">
-                                <p>Experience a revolutionary solution for hair loss with our hair transplant procedure. Using
-                                    state-of-the-art techniques, we carefully transplant healthy hair follicles from donor areas
-                                    to restore a full and natural-looking head of hair.</p>
-                            </div>
-                            <ul class="t_list">
-                                <li>Duration of treatment - 90 minutes</li>
-                                <li>No. of sessions - 04</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="color-shape treatment-list col-md-6 cosmetic-corrections ">
-                        <div class="overlay_01"></div>
-                        <div class="tl_box">
-                            <div class="t_heading">
-                                <h4 class="fw-bold">Mane Revival Treatment
-                                </h4>
-                            </div>
-                            <div class="t_para">
-                                <p>Discover the ultimate solution for hair loss with our Mane Revival treatment program. Our
-                                    comprehensive approach targets the underlying causes of hair thinning, combining advanced
-                                    therapies and customized treatment plans to stimulate hair growth and improve hair density.
-                                </p>
-                            </div>
-                            <ul class="t_list">
-                                <li>Duration of treatment - 90 minutes</li>
-                                <li>No. of sessions - 01</li>
-
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="color-shape treatment-list col-md-6 hormonal-issues">
-                        <div class="overlay_01"></div>
-                        <div class="tl_box " style="min-height: auto;">
-                            <div class="t_heading">
-                                <h4 class="fw-bold">Bald Patches Correction</h4>
-                            </div>
-                            <div class="t_para">
-                                <p>Say goodbye to bald patches and enjoy a full, luscious mane with our specialized bald patches
-                                    correction treatments, using advanced techniques to stimulate hair follicle growth and fill
-                                    in sparse areas. Using cutting-edge techniques, we address areas of hair loss with precision
-                                    and artistry, seamlessly blending natural-looking hair growth to fill in sparse patches.</p>
-                            </div>
-                            <ul class="t_list">
-                                <li>Duration of treatment - 90 minutes</li>
-                                <li>No. of sessions - 02</li>
-
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="color-shape treatment-list col-md-6 for-men">
-                        <div class="overlay_01"></div>
-                        <div class="tl_box " style="min-height: auto;">
-                            <div class="t_heading">
-                                <h4 class="fw-bold">Edge Enhance Hairline Correction</h4>
-                            </div>
-                            <div class="t_para">
-                                <p>Enhance your facial harmony and redefine your hairline with our expert hairline correction
-                                    procedures. Whether addressing receding hairlines or asymmetrical features, our expert team
-                                    utilizes advanced techniques to sculpt a harmonious and youthful hairline that complements
-                                    your facial features.</p>
-                            </div>
-                            <ul class="t_list">
-                                <li>Duration of treatment - 90 minutes</li>
-                                <li>No. of sessions - 02</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </section> -->
-
     <section class="services-sec-04">
         <div class="container">
             <div class="row">
@@ -769,58 +672,6 @@
     </section>
 
     <!-- Testooo -->
-    <style>
-        .testimonial-section {
-            text-align: center;
-            padding: 50px 20px;
-            background-color: #fff;
-        }
-
-        .testimonial-section h2 {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #f1f1f1;
-            text-transform: uppercase;
-            margin-bottom: 20px;
-        }
-
-        /* .google-logo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 1.5rem;
-            font-weight: bold;
-        } */
-
-        .google-logo img {
-            width: 200px;
-            margin-right: 10px;
-        }
-
-        .testimonial-text {
-            font-style: italic;
-            font-size: 1.2rem;
-            margin: 20px 0;
-        }
-
-        .testimonial-author {
-            font-weight: bold;
-            margin-top: 10px;
-        }
-
-        .testimonial-carousel img {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-        }
-
-        .carousel-control-next,
-        .carousel-control-prev {
-            background-color: transparent !important;
-            border: 0 !important;
-            color: black !important;
-        }
-    </style>
 
     <div class="testimonial-section container">
         <h2>OUR TESTIMONIAL</h2>
@@ -869,8 +720,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="brand-video-wrp">
-                        <video id="myVideo" loop muted autoplay playsinline
-                            title="A group of people happy in the video with Angel Health Care Services.">
+                        <video id="myVideo" loop controls autoplay playsinline title="A group of people happy in the video with Angel Health Care Services.">
                             <source src="video/Angel-Health-Centre-Be-The-Star.mp4" type="video/mp4">
                         </video>
 
