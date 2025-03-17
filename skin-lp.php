@@ -3,8 +3,8 @@
 <?php include("inc/meta.php"); ?>
 <?php include("inc/css.php"); ?>
 <?php include("inc/slick-carousel.php"); ?>
-<link rel="stylesheet" href="assets/services/services.css">
 <link rel="stylesheet" href="assets/landing/landing.css" />
+<link rel="stylesheet" href="assets/services/services.css">
 
 
 
@@ -84,15 +84,15 @@
                 <!-- <a onclick="openModal()" class="ctabtn" href="javascript:void(0);" id="getStartedBtn">
                     <span class="menu-text">Get Started</span>
                 </a> -->
-                <p>#Ranked Hair Clinic in London</p>
-                <h3>Life isn't Perfect but Your hair can be </h3>
+                <p>#Ranked Skin Clinic in London</p>
+                <h3>Care for your skin, cherish your beauty </h3>
                 <div class="row ">
-                    <div class="col-6 border-bottom border-1">hair treatment</div>
-                    <div class="col-6 border-bottom border-1">hair treatment</div>
-                    <div class="col-6 border-bottom border-1">hair treatment</div>
-                    <div class="col-6 border-bottom border-1">hair treatment</div>
-                    <div class="col-6 border-bottom border-1">hair treatment</div>
-                    <div class="col-6 border-bottom border-1">hair treatment</div>
+                    <div class="col-6 border-bottom border-1">Acne </div>
+                    <div class="col-6 border-bottom border-1">Anti-Aging</div>
+                    <div class="col-6 border-bottom border-1">Pigmentation </div>
+                    <div class="col-6 border-bottom border-1">Skin Rejuvenation</div>
+                    <!-- <div class="col-6 border-bottom border-1">hair treatment</div>
+                    <div class="col-6 border-bottom border-1">hair treatment</div> -->
                     <div class="col-6 mt-3"><a onclick="openModal()" class="ctabtn skinCta rounded"
                             href="javascript:void(0);" id="getStartedBtn">
                             <span class="menu-text shw-home-button ">Make a appointment</span>
@@ -107,23 +107,21 @@
             <div class="bannerCards row justify-content-center">
                 <div class="card bg-white shadow-lg border-0 col-md-3 col-12">
                     <div class="card-body">
-                        <h5 class="font-weight-bold text-center">Card title</h5>
-                        <p class="card-text text-center">Some quick example text to build on the card title and make up
-                            the bulk of the card's content.</p>
+                        <h5 class="font-weight-bold text-center">#Top Skin Specialist</h5>
+                        <p class="card-text text-center"> Trusted by 1000+ patients.</p>
                     </div>
                 </div>
                 <div class="card bg-white shadow-lg border-0 col-md-3 col-12">
                     <div class="card-body">
-                        <h5 class="font-weight-bold text-center">Card title</h5>
-                        <p class="card-text text-center">Some quick example text to build on the card title and make up
-                            the bulk of the card's content.</p>
+                        <h5 class="font-weight-bold text-center">1000+ Doctors & Aesthetic Experts Trained
+                        </h5>
+                        <p class="card-text text-center"> Setting new standards in skincare.</p>
                     </div>
                 </div>
                 <div class="card bg-white shadow-lg border-0 col-md-3 col-12">
                     <div class="card-body">
-                        <h5 class="font-weight-bold text-center">Card title</h5>
-                        <p class="card-text text-center">Some quick example text to build on the card title and make up
-                            the bulk of the card's content.</p>
+                        <h5 class="font-weight-bold text-center">30+ Years of Expertise</h5>
+                        <p class="card-text text-center"> Transforming skin with proven treatments.</p>
                     </div>
                 </div>
             </div>
@@ -497,7 +495,9 @@
 
     <!-- Unlock stunning hair,one treatement at a time section  -->
     <div class="concern SHW-concern">
-        <h1 class="pb-4 text-center">Unlock stunning hair,<br> one treatement at a time</h1>
+        <h1 class="pb-4 text-center">Age less,
+            <br> glow more!
+        </h1>
         <div class="row justify-content-center">
 
             <div class="card border-0 col-md-5 col-10">
@@ -561,107 +561,37 @@
     <!-- Treatments Section  -->
 
 
+
+
     <section class="services-sec-04">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center d-none d-md-block">
+                <div class="col-md-12 text-center">
                     <h2 class="sc_h2 mb-5">Rejuvenating skin treatments</h2>
+
+                    <?php /*?><div class="search-tabs-wrp">
+                       <!--<div class="form-horizontal">
+                           <div class="clearfix search-row">
+                             <input type="text" class="quicksearch" placeholder="Search by keyword" />
+                           </div>
+                       </div>-->
+                       <div class="filters portfolioFilter">
+                           <div class="ui-group">
+                             <ul class="videoStyleList button-group js-radio-button-group np-tabs" data-filter-group="color">
+                               <li data-filter="" class="is-checked"><span>All</span></li>
+                               <li data-filter=".cosmetic-corrections"><span>Cosmetic corrections</span></li>
+                               <li data-filter=".hormonal-issues"><span>Hormonal issues</span></li>
+                               <li data-filter=".skin-health"><span>Skin health</span></li>
+                               <li data-filter=".for-men"><span>For men</span></li>
+                             </ul>
+                           </div>
+                         </div>
+                   </div><?php */ ?>
+
                 </div>
-                <!-- <div class="col-md-12  ">
-
-                    <div class="np-content grid portfolioContainer">
-                        <div class="color-shape treatment-list col-md-6 skin-health">
-                            <div class="overlay_01"></div>
-                            <div class="tl_box">
-                                <div class="t_heading">
-                                    <h4>Follicle Fusion Hair Transplant</h4>
-                                </div>
-                                <div class="t_para">
-                                    <p>Experience a revolutionary solution for hair loss with our hair transplant
-                                        procedure. Using state-of-the-art techniques, we carefully transplant healthy
-                                        hair follicles from donor areas to restore a full and natural-looking head of
-                                        hair.</p>
-                                </div>
-                                <ul class="t_list">
-                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                    <li>No. of sessions - <strong>04</strong></li>
-                                </ul>
-                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span
-                                        class="txt">Enquire now</span></a>
-                            </div>
-                        </div>
-
-                        <div class="color-shape treatment-list col-md-6 cosmetic-corrections ">
-                            <div class="overlay_01"></div>
-                            <div class="tl_box">
-                                <div class="t_heading">
-                                    <h4>Mane Revival Treatment</h4>
-                                </div>
-                                <div class="t_para">
-                                    <p>Discover the ultimate solution for hair loss with our Mane Revival treatment
-                                        program. Our comprehensive approach targets the underlying causes of hair
-                                        thinning, combining advanced therapies and customized treatment plans to
-                                        stimulate hair growth and improve hair density.</p>
-                                </div>
-                                <ul class="t_list">
-                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                    <li>No. of sessions - <strong>01</strong></li>
-                                </ul>
-                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span
-                                        class="txt">Enquire now</span></a>
-                            </div>
-                        </div>
-
-                        <div class="color-shape treatment-list col-md-6 hormonal-issues">
-                            <div class="overlay_01"></div>
-                            <div class="tl_box">
-                                <div class="t_heading">
-                                    <h4>Bald Patches Correction</h4>
-                                </div>
-                                <div class="t_para">
-                                    <p>Say goodbye to bald patches and enjoy a full, luscious mane with our specialized
-                                        bald patches correction treatments, using advanced techniques to stimulate hair
-                                        follicle growth and fill in sparse areas. Using cutting-edge techniques, we
-                                        address areas of hair loss with precision and artistry, seamlessly blending
-                                        natural-looking hair growth to fill in sparse patches.</p>
-                                </div>
-                                <ul class="t_list">
-                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                    <li>No. of sessions - <strong>02</strong></li>
-                                </ul>
-                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span
-                                        class="txt">Enquire now</span></a>
-                            </div>
-                        </div>
-
-                        <div class="color-shape treatment-list col-md-6 for-men">
-                            <div class="overlay_01"></div>
-                            <div class="tl_box">
-                                <div class="t_heading">
-                                    <h4>Edge Enhance Hairline Correction</h4>
-                                </div>
-                                <div class="t_para">
-                                    <p>Enhance your facial harmony and redefine your hairline with our expert hairline
-                                        correction procedures. Whether addressing receding hairlines or asymmetrical
-                                        features, our expert team utilizes advanced techniques to sculpt a harmonious
-                                        and youthful hairline that complements your facial features.</p>
-                                </div>
-                                <ul class="t_list">
-                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                    <li>No. of sessions - <strong>02</strong></li>
-                                </ul>
-                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span
-                                        class="txt">Enquire now</span></a>
-                            </div>
-                        </div>
+                <div class="col-md-12">
 
 
-                    </div>
-
-                </div> -->
-
-
-                <div class="col-md-12 d-none d-md-block">
                     <div class="np-content grid portfolioContainer">
 
                         <div class="color-shape treatment-list col-md-6 skin-health">
@@ -956,21 +886,21 @@
                             </div>
                         </div>
                         <!--<div class="color-shape treatment-list col-md-6 for-men">
-    <div class="overlay_01"></div>
-    <div class="tl_box">
-        <div class="t_heading">
-            <h4>Wrinkle Relaxation Botox Therapy</h4>
-        </div>
-        <div class="t_para">
-            <p>Smooth away wrinkles and fine lines with our Botox injections, using a purified neurotoxin to relax facial muscles and reduce the appearance of dynamic wrinkles for a more youthful and refreshed appearance.</p>
-        </div>
-        <ul class="t_list">
-            <li>Duration of treatment - <strong>90 minutes</strong></li>
-            <li>No. of sessions - <strong>02</strong></li>
-        </ul>
-        <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span class="txt">Enquire now</span></a>
-    </div>
-</div>-->
+                            <div class="overlay_01"></div>
+                            <div class="tl_box">
+                                <div class="t_heading">
+                                    <h4>Wrinkle Relaxation Botox Therapy</h4>
+                                </div>
+                                <div class="t_para">
+                                    <p>Smooth away wrinkles and fine lines with our Botox injections, using a purified neurotoxin to relax facial muscles and reduce the appearance of dynamic wrinkles for a more youthful and refreshed appearance.</p>
+                                </div>
+                                <ul class="t_list">
+                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                    <li>No. of sessions - <strong>02</strong></li>
+                                </ul>
+                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span class="txt">Enquire now</span></a>
+                            </div>
+                        </div>-->
                         <div class="color-shape treatment-list col-md-6 for-men">
                             <div class="overlay_01"></div>
                             <div class="tl_box">
@@ -1055,514 +985,11 @@
 
 
                     </div>
+
                 </div>
-                <!-- FAQs Likee treatment section for mobile  section -->
-                <section class="faqs-services d-md-none d-block">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-10 mx-auto text-center">
-                                <h2 class="sc_h2 mb-5">Rejuvenating skin treatments</h2>
-                            </div>
-                            <div class="col-md-4 mx-auto text-center">
-                                <div class="seprator-color">
-                                    <div class="s-star"></div>
-                                    <div class="s-line"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-9 mx-auto">
-                                <div class="accordion" id="accordionExample-02">
-
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-21">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-21" aria-expanded="false"
-                                                aria-controls="collapse_0-21"><span class="acc_txt">Blemish Buster Acne
-                                                    Treatment</span> <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-21" class="collapse" aria-labelledby="heading_0-21"
-                                            data-parent="#accordionExample-02" style="">
-                                            <div class="card-body">
-                                                <p>Our comprehensive acne treatment targets breakouts at the root,
-                                                    addressing inflammation and preventing future eruptions. Through a
-                                                    combination of advanced skincare techniques and personalized
-                                                    treatment plans, we restore clarity and confidence to your
-                                                    complexion.</p>
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>04</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-22">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-22" aria-expanded="false"
-                                                aria-controls="collapse_0-22"><span class="acc_txt">Radiance Rebirth
-                                                    Pigmentation Therapy</span> <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-22" class="collapse" aria-labelledby="heading_0-22"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Combat uneven skin tone and hyperpigmentation with our targeted
-                                                    pigmentation correction treatments. Using state-of-the-art
-                                                    technology and advanced skincare formulations, we effectively
-                                                    diminish dark spots and discoloration, revealing a luminous, even
-                                                    complexion.</p>
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>01</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-23">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-23" aria-expanded="false"
-                                                aria-controls="collapse_0-23"><span class="acc_txt">Luminous Glow
-                                                    Enhancement / Skin Lightening</span> <span
-                                                    class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-23" class="collapse" aria-labelledby="heading_0-23"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Illuminate your skin and unveil a radiant, luminous complexion with
-                                                    our transformative skin lightening treatments. By targeting excess
-                                                    melanin production and promoting cell turnover, we fade
-                                                    discoloration and reveal brighter, more youthful-looking skin.</p>
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-24">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-24" aria-expanded="false"
-                                                aria-controls="collapse_0-24"><span class="acc_txt">Silken Smooth Laser
-                                                    Hair Removal Therapy</span> <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-24" class="collapse" aria-labelledby="heading_0-24"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Experience the freedom of smooth, hair-free skin with our advanced
-                                                    laser hair removal treatments. Our state-of-the-art laser technology
-                                                    selectively targets hair follicles, delivering long-lasting results
-                                                    for a silky-smooth appearance without the hassle of daily shaving or
-                                                    waxing.</p>
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-25">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-25" aria-expanded="false"
-                                                aria-controls="collapse_0-25"><span class="acc_txt">Timeless Youth
-                                                    Revival Solutions</span> <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-25" class="collapse" aria-labelledby="heading_0-24"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Turn back the hands of time and rejuvenate your skin with our
-                                                    comprehensive anti-aging solutions. From wrinkle reduction and skin
-                                                    tightening to collagen stimulation and facial volumization, our
-                                                    customized treatments address multiple signs of aging, restoring
-                                                    youthfulness and vitality to your complexion.</p>
-                                                ul class="t_list">
-                                                <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-26">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-26" aria-expanded="false"
-                                                aria-controls="collapse_0-26"><span class="acc_txt">Wrinkle Erase
-                                                    Therapy</span> <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-26" class="collapse" aria-labelledby="heading_0-26"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Smooth away fine lines and wrinkles with our specialized wrinkle
-                                                    reduction treatments. Using a combination of injectable fillers,
-                                                    neurotoxins and collagen-boosting therapies, we restore volume,
-                                                    firmness and elasticity to your skin, resulting in a more youthful
-                                                    and refreshed appearance.</p>
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-27">
-
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-27" aria-expanded="false"
-                                                aria-controls="collapse_0-27"><span class="acc_txt">Laugh Line
-                                                    Softening</span> <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-27" class="collapse" aria-labelledby="heading_0-27"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Soften and smooth laugh lines and nasolabial folds with our targeted
-                                                    laugh line softening treatments. Through a combination of dermal
-                                                    fillers and collagen-stimulating therapies, we restore volume and
-                                                    contour to the midface, rejuvenating your appearance and enhancing
-                                                    your natural beauty.</p>
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-28">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-28" aria-expanded="false"
-                                                aria-controls="collapse_0-28"><span class="acc_txt">Alpha Glow
-                                                    Infusion</span> <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-28" class="collapse" aria-labelledby="heading_0-28"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Reveal a fresh, radiant complexion with our revitalizing AHA facial
-                                                    treatment. Our gentle yet effective exfoliation process removes dead
-                                                    skin cells, unclogs pores, and promotes cell turnover, leaving your
-                                                    skin soft, smooth, and glowing with youthful vitality.</p>
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-29">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-29" aria-expanded="false"
-                                                aria-controls="collapse_0-29"><span class="acc_txt">Rhinoplasty Nasal
-                                                    Correction</span> <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-29" class="collapse" aria-labelledby="heading_0-29"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Achieve facial harmony and balance with our personalized rhinoplasty
-                                                    procedure. Whether correcting a nasal hump, refining the tip or
-                                                    improving overall symmetry, our board-certified surgeons use
-                                                    advanced techniques to sculpt a nose that complements your unique
-                                                    facial features and enhances your overall appearance.</p>
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-30">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-30" aria-expanded="false"
-                                                aria-controls="collapse_0-30"><span class="acc_txt">Face Lift</span>
-                                                <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-30" class="collapse" aria-labelledby="heading_0-30"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Turn back the hands of time and rejuvenate your facial appearance
-                                                    with our transformative face lift procedure. Through a combination
-                                                    of skin tightening, muscle repositioning and fat redistribution, we
-                                                    address sagging skin and deep facial folds to restore firmness,
-                                                    definition and vitality for natural-looking results that defy the
-                                                    signs of aging.</p>
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-30">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-30" aria-expanded="false"
-                                                aria-controls="collapse_0-30"><span class="acc_txt">Jawline
-                                                    Sculpting</span>
-                                                <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-30" class="collapse" aria-labelledby="heading_0-30"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Say goodbye to submental fullness and redefine your jawline with our
-                                                    targeted double chin reduction treatments. Whether through minimally
-                                                    invasive procedures or surgical techniques, we sculpt and contour
-                                                    the neck and jaw area, restoring youthful definition and enhancing
-                                                    facial harmony for a more confident and refined appearance.</p>
-
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-30">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-30" aria-expanded="false"
-                                                aria-controls="collapse_0-30"><span class="acc_txt">Perfect Pout
-                                                    Refinement</span>
-                                                <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-30" class="collapse" aria-labelledby="heading_0-30"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Achieve perfectly balanced and proportionate lips with our expert lip
-                                                    correction procedures. Whether enhancing volume, refining shape or
-                                                    correcting asymmetry, our tailored treatments restore harmony and
-                                                    definition to your lips, enhancing your natural beauty and
-                                                    confidence with subtle, natural-looking results.</p>
-
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-30">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-30" aria-expanded="false"
-                                                aria-controls="collapse_0-30"><span class="acc_txt">Chin
-                                                    Correction</span>
-                                                <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-30" class="collapse" aria-labelledby="heading_0-30"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Whether addressing a weak or recessed chin, asymmetry or
-                                                    disproportion, our board-certified chin correction treatments use
-                                                    advanced techniques to sculpt and enhance your chin, improving
-                                                    overall facial proportions and enhancing your natural beauty.</p>
-
-
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-30">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-30" aria-expanded="false"
-                                                aria-controls="collapse_0-30"><span class="acc_txt">Bright Eye
-                                                    Rejuvenation / Blepharoplasty</span>
-                                                <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-30" class="collapse" aria-labelledby="heading_0-30"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Refresh tired eyes and rejuvenate your appearance with our
-                                                    blepharoplasty procedure, targeting excess skin and fat around the
-                                                    eyes. Whether addressing sagging eyelids, under-eye bags, or
-                                                    drooping brows, our customized surgical techniques deliver an
-                                                    unforgettable gaze.</p>
-
-
-
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-30">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-30" aria-expanded="false"
-                                                aria-controls="collapse_0-30"><span class="acc_txt">Youthful Volume
-                                                    Restoration</span>
-                                                <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-30" class="collapse" aria-labelledby="heading_0-30"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Restore lost volume and enhance facial contours with our specialized
-                                                    filler treatments, customized to your unique needs. We use
-                                                    hyaluronic acid-based injectables to plump and rejuvenate the skin
-                                                    for a more youthful and refreshed appearance.</p>
-
-
-
-
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-30">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-30" aria-expanded="false"
-                                                aria-controls="collapse_0-30"><span class="acc_txt">Firm & Fabulous Skin
-                                                    Tightening</span>
-                                                <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-30" class="collapse" aria-labelledby="heading_0-30"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Tighten and firm sagging skin with our advanced skin tightening
-                                                    procedures, stimulating collagen production and improving skin
-                                                    elasticity for a smoother, more lifted appearance.</p>
-
-
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-30">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-30" aria-expanded="false"
-                                                aria-controls="collapse_0-30"><span class="acc_txt">Contour Thread
-                                                    Sculpting</span>
-                                                <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-30" class="collapse" aria-labelledby="heading_0-30"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Lift and tighten facial skin without surgery with our innovative
-                                                    contour thread lift procedure, using dissolvable sutures to lift and
-                                                    support sagging tissue for natural-looking results with minimal
-                                                    downtime.</p>
-
-
-
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card color-shape Hair">
-                                        <div class="card-header" id="heading_0-30">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                                data-target="#collapse_0-30" aria-expanded="false"
-                                                aria-controls="collapse_0-30"><span class="acc_txt">Ink Vanish Therapy /
-                                                    Tattoo Removal</span>
-                                                <span class="acc_arrow"></span></button>
-                                        </div>
-                                        <div id="collapse_0-30" class="collapse" aria-labelledby="heading_0-30"
-                                            data-parent="#accordionExample-02">
-                                            <div class="card-body">
-                                                <p>Say goodbye to unwanted tattoos with our safe and effective tattoo
-                                                    removal treatments, using advanced laser technology to break down
-                                                    ink particles and reveal clear, ink-free skin.</p>
-
-
-
-
-                                                <ul class="t_list">
-                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
-                                                    <li>No. of sessions - <strong>02</strong></li>
-                                                </ul>
-                                                <a href="book-a-consultation.php"
-                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
-                                                        now</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
             </div>
         </div>
+
     </section>
 
 
@@ -1577,9 +1004,9 @@
                 <div class="col-md-4 d-flex step-div">
                     <div class="step-card mx-auto w-100">
                         <div class="step-number">Step 1</div>
-                        <h4 class="step-title">Doctor Consultation</h4>
-                        <p class="step-description">These theme is insanely flexible and amazingly easy to use. This
-                            alone would be enough for a 5 star rating.</p>
+                        <h4 class="step-title"> Expert Skin Consultation</h4>
+                        <p class="step-description"> Personalised assessment to understand your skin's unique needs.
+                        </p>
                     </div>
                 </div>
 
@@ -1587,9 +1014,10 @@
                 <div class="col-md-4 d-flex step-div">
                     <div class="step-card mx-auto w-100">
                         <div class="step-number">Step 2</div>
-                        <h4 class="step-title">Digital Diagnosis</h4>
-                        <p class="step-description">These theme is insanely flexible and amazingly easy to use. This
-                            alone would be enough for a 5 star rating.</p>
+                        <h4 class="step-title">Advanced Skin Diagnosis</h4>
+                        <p class="step-description"> Cutting-edge technology to analyse and tailor the perfect
+                            treatment.
+                        </p>
                     </div>
                 </div>
 
@@ -1597,9 +1025,8 @@
                 <div class="col-md-4 d-flex step-div">
                     <div class="step-card mx-auto w-100">
                         <div class="step-number">Step 3</div>
-                        <h4 class="step-title">Safe & Holistic Treatment</h4>
-                        <p class="step-description">These theme is insanely flexible and amazingly easy to use. This
-                            alone would be enough for a 5 star rating.</p>
+                        <h4 class="step-title">Safe & Effective Treatments</h4>
+                        <p class="step-description">Scientifically-backed solutions for radiant, healthy skin.</p>
                     </div>
                 </div>
             </div>
@@ -1615,17 +1042,19 @@
                 <div
                     class="col-md-6 position-relative text-center d-flex justify-content-center align-items-center mb-md-0 mb-5">
                     <img src="assets/landing/dummytest.png" class="img-fluid rounded" alt="Doctor consulting patient">
-                    <div class="experience-box"><span id="count" class="font-25">0+</span>
+                    <div class="experience-box"><span id="count" class="font-25">31+</span>
                         <br><small>Years of Experience</small>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h2>We're Tressa Hair Clinic</h2>
-                    <p>Get started swiftly & easily by importing a demo of your choice in a single click. Over 30
-                        high-quality professionally designed pre-built website concepts to choose from.</p>
-                    <p>Tressa is a modern business theme that lets you build stunning high-performance websites using a
-                        fully visual interface. Start with any of the demos below or build one on your own. Exponent is
-                        a perfect blend of spacious layouts and precise typography.</p>
+                    <h2>We're Angel Health & Aesthetic Clinic</h2>
+                    <p>Get flawless, radiant skin with expert treatments tailored just for you. Our advanced
+                        dermatological solutions designed by professionals to choose from.
+                    </p>
+                    <p>Angel offers cutting-edge skin care backed by science for long-lasting results. Start your
+                        journey with a consultation or explore our range of aesthetic treatments. Experience the perfect
+                        blend of innovation and care.
+                    </p>
                     <button class="btn btn-custom ">Make an Appointment</button>
                 </div>
             </div>
@@ -1647,19 +1076,53 @@
             <div class="carousel-inner container">
                 <div class="carousel-item active">
                     <p class="testimonial-text">
-                        I've been coming here for a little over half a year for laser hair removal and I'm really happy
-                        with my experience here at Canada MedLaser. Super professional and knowledgeable about all of
-                        their services, and the results are amazing. I would definitely recommend this place to anyone
-                        looking!
+                        Dr. Pornima Mhatray, is incredibly knowledgeable, attentive, and her treatments have made a real
+                        difference for my skin. I couldn’t be more satisfied. The entire experience was seamless, and I
+                        highly recommend her for anyone seeking expert dermatological care.
                     </p>
-                    <p class="testimonial-author">- Sasha Miranda</p>
+                    <p class="testimonial-author">- Kritikaa Shetty</p>
                 </div>
                 <div class="carousel-item">
                     <p class="testimonial-text">
-                        Amazing service! The staff is very professional and friendly. I’ve seen great results after just
-                        a few sessions.
+                        I've struggled with dull skin for years, but after just a few sessions at Angel Skin Clinic, I
+                        can confidently say my glow is back! Their treatments are top-notch, and the staff makes you
+                        feel like royalty.
                     </p>
-                    <p class="testimonial-author">- John Doe</p>
+                    <p class="testimonial-author">- Riya Malhotra</p>
+                </div>
+                <div class="carousel-item">
+                    <p class="testimonial-text">
+                        I was skeptical at first, but WOW! The hydrafacial and laser treatments worked wonders on my
+                        acne scars. My skin looks so fresh and smooth—I've been getting compliments non-stop.
+
+                    </p>
+                    <p class="testimonial-author">- Aarav Sinha </p>
+                </div>
+                <div class="carousel-item">
+                    <p class="testimonial-text">
+                        Dealing with pigmentation was a nightmare, but their customized treatment plan changed
+                        everything. My skin tone is now even, and I feel more confident than ever.
+
+                    </p>
+                    <p class="testimonial-author">- Pooja Rao </p>
+                </div>
+                <div class="carousel-item">
+                    <p class="testimonial-text">
+
+                        I was looking for a non-invasive way to tighten my skin, and their radiofrequency treatment was
+                        perfect! My skin feels firmer, and my fine lines have softened.
+
+                    </p>
+                    <p class="testimonial-author">- Neha Kapoor </p>
+                </div>
+                <div class="carousel-item">
+                    <p class="testimonial-text">
+
+                        From consultation to treatment, everything was seamless. The dermatologists here truly know what
+                        they’re doing. My skin has never looked this clear!
+
+                    </p>
+                    <p class="testimonial-author">- Sameer Mehta</p>
                 </div>
             </div>
 
@@ -1733,8 +1196,9 @@
             <img class="w-100 desktopHero " src="assets/landing/cta.jpg" alt="">
             <img class="w-100 mobileHero" src="assets/landing/Mobile-size-Banner-2-750x850.jpg" alt="">
             <div class="cta-content text-center w-50">
-                <p class=" fw-bold m-0 p-0">Mastering beauty is an art</p>
-                <p class=""> preserving it is our expertise</p>
+                <p class=" fw-bold m-0 p-0">Beauty is timeless ,
+                </p>
+                <p class=""> we make sure it stays that way.</p>
                 <a onclick="openModal()" class="ctabtn" href="javascript:void(0);">
                     <span class="menu-text cta-book">Book Your Consultation Today</span>
                 </a>
