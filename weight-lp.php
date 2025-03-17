@@ -93,10 +93,12 @@
                     <div class="col-6 border-bottom border-1">hair treatment</div>
                     <div class="col-6 border-bottom border-1">hair treatment</div>
                     <div class="col-6 border-bottom border-1">hair treatment</div>
-                    <div class="col-6 mt-3"><a onclick="openModal()" class="ctabtn skinCta rounded" href="javascript:void(0);" id="getStartedBtn">
+                    <div class="col-6 mt-3"><a onclick="openModal()" class="ctabtn skinCta rounded"
+                            href="javascript:void(0);" id="getStartedBtn">
                             <span class="menu-text shw-home-button ">Make a appointment</span>
                         </a></div>
-                    <div class="col-6 mt-3"> <a href="tel:+91 90042 64646" class="skinBannerCall skinCta ctabtn rounded ">
+                    <div class="col-6 mt-3"> <a href="tel:+91 90042 64646"
+                            class="skinBannerCall skinCta ctabtn rounded ">
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             <span class="menu-text shw-home-button ">+91 90042 64646</span>
                         </a></div>
@@ -106,72 +108,102 @@
                 <div class="card bg-white shadow-lg border-0 col-md-3 col-12">
                     <div class="card-body">
                         <h5 class="font-weight-bold text-center">Card title</h5>
-                        <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text text-center">Some quick example text to build on the card title and make up
+                            the bulk of the card's content.</p>
                     </div>
                 </div>
                 <div class="card bg-white shadow-lg border-0 col-md-3 col-12">
                     <div class="card-body">
                         <h5 class="font-weight-bold text-center">Card title</h5>
-                        <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text text-center">Some quick example text to build on the card title and make up
+                            the bulk of the card's content.</p>
                     </div>
                 </div>
                 <div class="card bg-white shadow-lg border-0 col-md-3 col-12">
                     <div class="card-body">
                         <h5 class="font-weight-bold text-center">Card title</h5>
-                        <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text text-center">Some quick example text to build on the card title and make up
+                            the bulk of the card's content.</p>
                     </div>
                 </div>
             </div>
             <div>
-            <form id="main-form" class="horizontalFormCont main-form-embedded formaloo__form-container " onsubmit="return validateForm()" action="contact-e.php" method="POST">
+                <form id="main-form" class="horizontalFormCont main-form-embedded formaloo__form-container "
+                    onsubmit="return validateForm()" action="contact-e.php" method="POST">
                     <div class="form-components-style_form-m-info__lj0Ty">
-                        <div class="form-components-style_form-m-desc__MT7eX form-theme-text--lighten formaloo__form-description">
+                        <div
+                            class="form-components-style_form-m-desc__MT7eX form-theme-text--lighten formaloo__form-description">
 
                         </div>
                     </div>
-                    <div class="w-100 form-components-style_single-step-content__modern__buV1h form-theme-field-border py-4">
+                    <div
+                        class="w-100 form-components-style_single-step-content__modern__buV1h form-theme-field-border py-4">
                         <div class="formz-fields-wrapper horizontalForm row align-items-center justify-content-center">
                             <div class="col-lg-2 col-md-2 col-8 text-center">
                                 Counsult Now :
                             </div>
-                            <div class="col-lg-2 col-md-2 col-8 fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc" id="formz_singleStep_field_AaXE5FjT">
+                            <div class="col-lg-2 col-md-2 col-8 fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc"
+                                id="formz_singleStep_field_AaXE5FjT">
                                 <div class="w-100">
                                     <label class="fields-global_form-field-and-label-holder__OiTHf" style="width:100%">
-                                        <div class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title"></span>
+                                        <div
+                                            class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title">
+                                            </span>
                                         </div>
-                                        <div class="modern-view-global-styles_m-input-description__C9j56 form-theme-text--lighten formaloo__field-description">
+                                        <div
+                                            class="modern-view-global-styles_m-input-description__C9j56 form-theme-text--lighten formaloo__field-description">
 
                                         </div>
-                                        <div class="modern-view-global-styles_m-input-container__BWZf1" style="width:100%;margin:auto;">
-                                            <input type="text" class="modern-view-global-styles_m-textfield__ZOOyk form-modern-input formaloo__field-input" autocomplete="off" name="AaXE5FjT" value="" id="fullname" placeholder="Full Name">
+                                        <div class="modern-view-global-styles_m-input-container__BWZf1"
+                                            style="width:100%;margin:auto;">
+                                            <input type="text"
+                                                class="modern-view-global-styles_m-textfield__ZOOyk form-modern-input formaloo__field-input"
+                                                autocomplete="off" name="AaXE5FjT" value="" id="fullname"
+                                                placeholder="Full Name">
                                             <!-- <img src="https://formaloo.me/static/media/error-icon.aa893f0a2cacae72df5e181e4a0609fc.svg" alt="error" class="modern-view-global-styles_m-error-icon__IrRpG"> -->
                                         </div>
                                     </label>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-md-2 col-8 fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc" id="formz_singleStep_field_yuH9dxD1">
+                            <div class="col-lg-2 col-md-2 col-8 fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc"
+                                id="formz_singleStep_field_yuH9dxD1">
                                 <div class="w-100">
                                     <label class="fields-global_form-field-and-label-holder__OiTHf" style="width:100%;">
-                                        <div class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title"></span>
+                                        <div
+                                            class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title">
+                                            </span>
                                         </div>
-                                        <div class="modern-view-global-styles_m-input-description__C9j56 form-theme-text--lighten formaloo__field-description" style="width:100%;margin:auto;">
+                                        <div class="modern-view-global-styles_m-input-description__C9j56 form-theme-text--lighten formaloo__field-description"
+                                            style="width:100%;margin:auto;">
                                             <div>Digit</div>
                                             <div>( Min: 1000000000 Max: 9999999999 )</div>
                                         </div>
-                                        <input type="text" class="modern-view-global-styles_m-textfield__ZOOyk form-modern-input fields-global_ltr-on-type__8WVVr formaloo__field-input" min="1000000000" max="9999999999" autocomplete="off" name="yuH9dxD1" value="" id="mobile" placeholder="Mobile number">
+                                        <input type="text"
+                                            class="modern-view-global-styles_m-textfield__ZOOyk form-modern-input fields-global_ltr-on-type__8WVVr formaloo__field-input"
+                                            min="1000000000" max="9999999999" autocomplete="off" name="yuH9dxD1"
+                                            value="" id="mobile" placeholder="Mobile number">
                                     </label>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-md-2 col-8 fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc" id="formz_singleStep_field_XxPfAip9">
+                            <div class="col-lg-2 col-md-2 col-8 fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc"
+                                id="formz_singleStep_field_XxPfAip9">
                                 <div class="w-100">
-                                    <label class="fields-global_form-field-and-label-holder__OiTHf" style="width:100%; margin:auto;">
-                                        <div class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title"></span>
+                                    <label class="fields-global_form-field-and-label-holder__OiTHf"
+                                        style="width:100%; margin:auto;">
+                                        <div
+                                            class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title">
+                                            </span>
                                         </div>
-                                        <div class="modern-view-global-styles_m-input-description__C9j56 form-theme-text--lighten formaloo__field-description">
+                                        <div
+                                            class="modern-view-global-styles_m-input-description__C9j56 form-theme-text--lighten formaloo__field-description">
 
                                         </div>
-                                        <div class="modern-view-global-styles_m-input-container__BWZf1" style="width:100%; margin:auto;">
-                                            <input class="modern-view-global-styles_m-textfield__ZOOyk form-modern-input fields-global_ltr-on-type__8WVVr formaloo__field-input" placeholder="Email " autocomplete="off" name="XxPfAip9" value="" id="email">
+                                        <div class="modern-view-global-styles_m-input-container__BWZf1"
+                                            style="width:100%; margin:auto;">
+                                            <input
+                                                class="modern-view-global-styles_m-textfield__ZOOyk form-modern-input fields-global_ltr-on-type__8WVVr formaloo__field-input"
+                                                placeholder="Email " autocomplete="off" name="XxPfAip9" value=""
+                                                id="email">
                                             <!-- <img src="https://formaloo.me/static/media/error-icon.aa893f0a2cacae72df5e181e4a0609fc.svg" alt="error" class="modern-view-global-styles_m-error-icon__IrRpG"> -->
                                         </div>
                                     </label>
@@ -180,8 +212,11 @@
                             <!-- Hidden field for reCAPTCHA token -->
                             <input type="hidden" name="recaptcha_response" class="recaptcha-response">
 
-                            <div class="col-lg-2 col-md-2 col-8 fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc">
-                                <button class="w-100 form-components-style_form-button-submit__ZzOBZ enabled form-theme-button formaloo__submit-button form-components-style_form-button-submit__modern__lOolW formaloo__button ctabtn rounded py-2 border-0" raised="true" type="submit">
+                            <div
+                                class="col-lg-2 col-md-2 col-8 fields-global_form-form-row__DKNAN formaloo__field-container d-flex modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc">
+                                <button
+                                    class="w-100 form-components-style_form-button-submit__ZzOBZ enabled form-theme-button formaloo__submit-button form-components-style_form-button-submit__modern__lOolW formaloo__button ctabtn rounded py-2 border-0"
+                                    raised="true" type="submit">
                                     <div class="font-weight-bold">Next</div>
                                 </button>
                             </div>
@@ -215,52 +250,84 @@
                         <div class="m-0" id="formz-wrapper" data-formz-slug="3amhPxH3" data-formz-type="simple">
                             <div id="formz-layout-wrapper" class="normal-height">
                                 <!-- <form id="main-form" class="main-form-embedded formaloo__form-container" action="contact-e.php" method="POST"> -->
-                                <form id="main-form" class="main-form-embedded formaloo__form-container" onsubmit="return validateForm()" action="contact-e.php" method="POST">
+                                <form id="main-form" class="main-form-embedded formaloo__form-container"
+                                    onsubmit="return validateForm()" action="contact-e.php" method="POST">
                                     <div class="form-components-style_form-m-info__lj0Ty">
-                                        <div class="form-components-style_form-m-desc__MT7eX form-theme-text--lighten formaloo__form-description">
+                                        <div
+                                            class="form-components-style_form-m-desc__MT7eX form-theme-text--lighten formaloo__form-description">
 
                                         </div>
                                     </div>
-                                    <div class="w-100 form-components-style_single-step-content__modern__buV1h form-theme-field-border">
+                                    <div
+                                        class="w-100 form-components-style_single-step-content__modern__buV1h form-theme-field-border">
                                         <div class="formz-fields-wrapper">
-                                            <div class="fields-global_form-form-row__DKNAN formaloo__field-container modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc" id="formz_singleStep_field_AaXE5FjT" style="padding-top:25px;">
+                                            <div class="fields-global_form-form-row__DKNAN formaloo__field-container modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc"
+                                                id="formz_singleStep_field_AaXE5FjT" style="padding-top:25px;">
                                                 <div>
-                                                    <label class="fields-global_form-field-and-label-holder__OiTHf" style="width:100%">
-                                                        <div class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title">Full name<span class="fields-global_titleRequired__4nob-">*</span>
+                                                    <label class="fields-global_form-field-and-label-holder__OiTHf"
+                                                        style="width:100%">
+                                                        <div
+                                                            class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title">
+                                                            Full name<span
+                                                                class="fields-global_titleRequired__4nob-">*</span>
                                                         </div>
-                                                        <div class="modern-view-global-styles_m-input-description__C9j56 form-theme-text--lighten formaloo__field-description">
+                                                        <div
+                                                            class="modern-view-global-styles_m-input-description__C9j56 form-theme-text--lighten formaloo__field-description">
 
                                                         </div>
-                                                        <div class="modern-view-global-styles_m-input-container__BWZf1" style="width:90%;margin:auto;">
-                                                            <input type="text" class="modern-view-global-styles_m-textfield__ZOOyk form-modern-input formaloo__field-input" autocomplete="off" name="AaXE5FjT" value="" id="fullname">
+                                                        <div class="modern-view-global-styles_m-input-container__BWZf1"
+                                                            style="width:90%;margin:auto;">
+                                                            <input type="text"
+                                                                class="modern-view-global-styles_m-textfield__ZOOyk form-modern-input formaloo__field-input"
+                                                                autocomplete="off" name="AaXE5FjT" value=""
+                                                                id="fullname">
                                                             <!-- <img src="https://formaloo.me/static/media/error-icon.aa893f0a2cacae72df5e181e4a0609fc.svg" alt="error" class="modern-view-global-styles_m-error-icon__IrRpG"> -->
                                                         </div>
                                                     </label>
                                                 </div>
                                             </div>
-                                            <div class="fields-global_form-form-row__DKNAN formaloo__field-container modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc" id="formz_singleStep_field_yuH9dxD1">
+                                            <div class="fields-global_form-form-row__DKNAN formaloo__field-container modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc"
+                                                id="formz_singleStep_field_yuH9dxD1">
                                                 <div>
-                                                    <label class="fields-global_form-field-and-label-holder__OiTHf" style="width:90%;">
-                                                        <div class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title">Mobile<span class="fields-global_titleRequired__4nob-">*</span>
+                                                    <label class="fields-global_form-field-and-label-holder__OiTHf"
+                                                        style="width:90%;">
+                                                        <div
+                                                            class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title">
+                                                            Mobile<span
+                                                                class="fields-global_titleRequired__4nob-">*</span>
                                                         </div>
-                                                        <div class="modern-view-global-styles_m-input-description__C9j56 form-theme-text--lighten formaloo__field-description" style="width:90%;margin:auto;">
+                                                        <div class="modern-view-global-styles_m-input-description__C9j56 form-theme-text--lighten formaloo__field-description"
+                                                            style="width:90%;margin:auto;">
                                                             <div>Digit</div>
                                                             <div>( Min: 1000000000 Max: 9999999999 )</div>
                                                         </div>
-                                                        <input type="text" class="modern-view-global-styles_m-textfield__ZOOyk form-modern-input fields-global_ltr-on-type__8WVVr formaloo__field-input" min="1000000000" max="9999999999" autocomplete="off" name="yuH9dxD1" value="" id="mobile">
+                                                        <input type="text"
+                                                            class="modern-view-global-styles_m-textfield__ZOOyk form-modern-input fields-global_ltr-on-type__8WVVr formaloo__field-input"
+                                                            min="1000000000" max="9999999999" autocomplete="off"
+                                                            name="yuH9dxD1" value="" id="mobile">
                                                     </label>
                                                 </div>
                                             </div>
-                                            <div class="fields-global_form-form-row__DKNAN formaloo__field-container modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc" id="formz_singleStep_field_XxPfAip9">
+                                            <div class="fields-global_form-form-row__DKNAN formaloo__field-container modern-view-global-styles_modern-form-row__yNxu7 fields-global_full-width__5rHzc"
+                                                id="formz_singleStep_field_XxPfAip9">
                                                 <div>
-                                                    <label class="fields-global_form-field-and-label-holder__OiTHf" style="width:100%;margin:auto;">
-                                                        <div class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title">Email<span class="fields-global_titleRequired__4nob-">*</span>
+                                                    <label class="fields-global_form-field-and-label-holder__OiTHf"
+                                                        style="width:100%;margin:auto;">
+                                                        <div
+                                                            class="modern-view-global-styles_m-input-title__TcM6X form-theme-text--main formaloo__field-title">
+                                                            Email<span
+                                                                class="fields-global_titleRequired__4nob-">*</span>
                                                         </div>
-                                                        <div class="modern-view-global-styles_m-input-description__C9j56 form-theme-text--lighten formaloo__field-description">
+                                                        <div
+                                                            class="modern-view-global-styles_m-input-description__C9j56 form-theme-text--lighten formaloo__field-description">
 
                                                         </div>
-                                                        <div class="modern-view-global-styles_m-input-container__BWZf1" style="width:90%;margin:auto;">
-                                                            <input class="modern-view-global-styles_m-textfield__ZOOyk form-modern-input fields-global_ltr-on-type__8WVVr formaloo__field-input" placeholder="" autocomplete="off" name="XxPfAip9" value="" id="email">
+                                                        <div class="modern-view-global-styles_m-input-container__BWZf1"
+                                                            style="width:90%;margin:auto;">
+                                                            <input
+                                                                class="modern-view-global-styles_m-textfield__ZOOyk form-modern-input fields-global_ltr-on-type__8WVVr formaloo__field-input"
+                                                                placeholder="" autocomplete="off" name="XxPfAip9"
+                                                                value="" id="email">
                                                             <!-- <img src="https://formaloo.me/static/media/error-icon.aa893f0a2cacae72df5e181e4a0609fc.svg" alt="error" class="modern-view-global-styles_m-error-icon__IrRpG"> -->
                                                         </div>
                                                     </label>
@@ -274,10 +341,13 @@
                                         <!-- Hidden field for reCAPTCHA token -->
                                         <input type="hidden" name="recaptcha_response" class="recaptcha-response">
 
-                                        <div class="form-components-style_single-step-button-wrapper__modern__s0XC+" style="margin-top:25px;padding-bottom:25px;">
+                                        <div class="form-components-style_single-step-button-wrapper__modern__s0XC+"
+                                            style="margin-top:25px;padding-bottom:25px;">
                                             <div class="form-components-style_submit-wrapper__RcH-V">
                                                 <div class="form-components-style_buttonRipple__WhqyN">
-                                                    <button class="form-components-style_form-button-submit__ZzOBZ enabled form-theme-button formaloo__submit-button form-components-style_form-button-submit__modern__lOolW formaloo__button" raised="true" type="submit">
+                                                    <button
+                                                        class="form-components-style_form-button-submit__ZzOBZ enabled form-theme-button formaloo__submit-button form-components-style_form-button-submit__modern__lOolW formaloo__button"
+                                                        raised="true" type="submit">
                                                         <div>Next</div>
                                                     </button>
                                                 </div>
@@ -285,8 +355,10 @@
                                         </div>
                                     </div>
                                     <div class="">
-                                        <div class="style_form-status__91bF4 style_form-singleStep-status__QVq7E style_form-status__modern__F9tMY">
-                                            <div class="style_progressBar__P-isG" style="background-color: rgb(235, 239, 245); height: 7px; border-radius: 0px;">
+                                        <div
+                                            class="style_form-status__91bF4 style_form-singleStep-status__QVq7E style_form-status__modern__F9tMY">
+                                            <div class="style_progressBar__P-isG"
+                                                style="background-color: rgb(235, 239, 245); height: 7px; border-radius: 0px;">
                                                 <div style="width: 0%; background-color: rgb(0, 0, 0);">
 
                                                 </div>
@@ -327,20 +399,20 @@
                     }
 
                     // When the user clicks the close button (span), close the modal
-                    span.onclick = function() {
+                    span.onclick = function () {
                         closeModal();
                     }
 
                     // When the user clicks anywhere outside the modal, close it
-                    window.onclick = function(event) {
+                    window.onclick = function (event) {
                         if (event.target == modal) {
                             closeModal();
                         }
                     }
 
                     // Attach the modal opening function to each button
-                    buttons.forEach(function(button) {
-                        button.addEventListener('click', function() {
+                    buttons.forEach(function (button) {
+                        button.addEventListener('click', function () {
                             openModal();
                         });
                     });
@@ -384,7 +456,7 @@
                 </script>
                 <script>
                     // JavaScript for validation and enabling/disabling submit button
-                    document.addEventListener("DOMContentLoaded", function() {
+                    document.addEventListener("DOMContentLoaded", function () {
                         const fullNameInput = document.querySelector('input[name="AaXE5FjT"]');
                         const mobileInput = document.querySelector('input[name="epR3yh3F"]');
                         const emailInput = document.querySelector('input[name="XxPfAip9"]');
@@ -423,8 +495,8 @@
                 <!--Angel Health Centre - Landing Page-->
 
                 <!--<div class="appointlet-inline" data-appointlet-inline="https://appt.link/angel-health-centre/book-an-appointment"></div>
-					<script async defer src="https://js.appointlet.com/"></script>
-					<link href="https://js.appointlet.com/styles.css" rel="stylesheet">-->
+                    <script async defer src="https://js.appointlet.com/"></script>
+                    <link href="https://js.appointlet.com/styles.css" rel="stylesheet">-->
             </div>
         </div>
     </div>
@@ -434,7 +506,7 @@
 
     <!-- Unlock stunning hair,one treatement at a time section  -->
     <div class="concern SHW-concern">
-        <h1 class="pb-4 text-center">Unlock stunning hair,<br> one treatement at a time</h1>
+        <h1 class="pb-4 text-center">Transforming weight,<br> one holistic plan at a time</h1>
         <div class="row justify-content-center">
 
             <div class="card border-0 col-md-5 col-10">
@@ -501,109 +573,216 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center d-none d-md-block">
-                    <h2 class="sc_h2 mb-5">Unlock stunning hair, <br> one treatment at a time</h2>
-
-                    <?php /*?><div class="search-tabs-wrp">
-							<!--<div class="form-horizontal">
-								<div class="clearfix search-row">
-								  <input type="text" class="quicksearch" placeholder="Search by keyword" />
-								</div>
-							</div>-->
-							<div class="filters portfolioFilter">
-								<div class="ui-group">
-								  <ul class="videoStyleList button-group js-radio-button-group np-tabs" data-filter-group="color">
-									<li data-filter="" class="is-checked"><span>All</span></li>
-									<li data-filter=".cosmetic-corrections"><span>Cosmetic corrections</span></li>
-									<li data-filter=".hormonal-issues"><span>Hormonal issues</span></li>
-									<li data-filter=".skin-health"><span>Skin health</span></li>
-									<li data-filter=".for-men"><span>For men</span></li>
-								  </ul>
-								</div>
-							  </div>
-						</div>
-					<?php */ ?>
+                    <h2 class="sc_h2 mb-5">Transforming weight,<br>
+                        one holistic plan at a time</h2>
                 </div>
-                <div class="col-md-12  d-none d-md-block">
-
+                <div class="col-md-12 text-center d-none d-md-block">
                     <div class="np-content grid portfolioContainer">
-                        <div class="color-shape treatment-list col-md-6 skin-health">
-                            <div class="overlay_01"></div>
+
+                        <div class="color-shape treatment-list col-md-6 face-correction">
                             <div class="tl_box">
+                                <div class="overlay_01"></div>
                                 <div class="t_heading">
-                                    <h4>Follicle Fusion Hair Transplant</h4>
+                                    <h4>Contour Carve Liposuction</h4>
                                 </div>
                                 <div class="t_para">
-                                    <p>Experience a revolutionary solution for hair loss with our hair transplant procedure. Using state-of-the-art techniques, we carefully transplant healthy hair follicles from donor areas to restore a full and natural-looking head of hair.</p>
+                                    <p>Refine your body contours and sculpt your figure with Body Contour Sculpt, a
+                                        transformative procedure that targets stubborn fat deposits in diverse areas
+                                        like the abdomen, thighs, and arms, tailored to your unique shape and goals.</p>
                                 </div>
                                 <ul class="t_list">
                                     <li>Duration of treatment - <strong>90 minutes</strong></li>
                                     <li>No. of sessions - <strong>04</strong></li>
                                 </ul>
-                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span class="txt">Enquire now</span></a>
+                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span
+                                        class="txt">Enquire now</span></a>
                             </div>
                         </div>
 
-                        <div class="color-shape treatment-list col-md-6 cosmetic-corrections ">
-                            <div class="overlay_01"></div>
+                        <div class="color-shape treatment-list col-md-6 face-correction">
                             <div class="tl_box">
+                                <div class="overlay_01"></div>
                                 <div class="t_heading">
-                                    <h4>Mane Revival Treatment</h4>
+                                    <h4>Tummy Tuck</h4>
                                 </div>
                                 <div class="t_para">
-                                    <p>Discover the ultimate solution for hair loss with our Mane Revival treatment program. Our comprehensive approach targets the underlying causes of hair thinning, combining advanced therapies and customized treatment plans to stimulate hair growth and improve hair density.</p>
+                                    <p>Restore your core strength and redefine your silhouette with our tummy tuck
+                                        solutions, a transformative procedure that tightens abdominal muscles and
+                                        removes excess skin for a flatter, more toned midsection.</p>
                                 </div>
                                 <ul class="t_list">
                                     <li>Duration of treatment - <strong>90 minutes</strong></li>
                                     <li>No. of sessions - <strong>01</strong></li>
                                 </ul>
-                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span class="txt">Enquire now</span></a>
+                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span
+                                        class="txt">Enquire now</span></a>
                             </div>
                         </div>
 
                         <div class="color-shape treatment-list col-md-6 hormonal-issues">
-                            <div class="overlay_01"></div>
                             <div class="tl_box">
+                                <div class="overlay_01"></div>
                                 <div class="t_heading">
-                                    <h4>Bald Patches Correction</h4>
+                                    <h4>Thigh Tuck</h4>
                                 </div>
                                 <div class="t_para">
-                                    <p>Say goodbye to bald patches and enjoy a full, luscious mane with our specialized bald patches correction treatments, using advanced techniques to stimulate hair follicle growth and fill in sparse areas. Using cutting-edge techniques, we address areas of hair loss with precision and artistry, seamlessly blending natural-looking hair growth to fill in sparse patches.</p>
+                                    <p>Elevate your confidence with our thigh tuck procedure designed to eliminate
+                                        sagging skin and reshape your thighs, revealing smoother, firmer contours and
+                                        enhancing your overall appearance.</p>
                                 </div>
                                 <ul class="t_list">
                                     <li>Duration of treatment - <strong>90 minutes</strong></li>
                                     <li>No. of sessions - <strong>02</strong></li>
                                 </ul>
-                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span class="txt">Enquire now</span></a>
+                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span
+                                        class="txt">Enquire now</span></a>
                             </div>
                         </div>
 
                         <div class="color-shape treatment-list col-md-6 for-men">
-                            <div class="overlay_01"></div>
                             <div class="tl_box">
+                                <div class="overlay_01"></div>
                                 <div class="t_heading">
-                                    <h4>Edge Enhance Hairline Correction</h4>
+                                    <h4>Arm Tuck</h4>
                                 </div>
                                 <div class="t_para">
-                                    <p>Enhance your facial harmony and redefine your hairline with our expert hairline correction procedures. Whether addressing receding hairlines or asymmetrical features, our expert team utilizes advanced techniques to sculpt a harmonious and youthful hairline that complements your facial features.</p>
+                                    <p>Achieve sleek, sculpted arms with our arm tuck procedure that removes excess skin
+                                        and fat, giving you slimmer, more defined arms and boosting your self-assurance.
+                                    </p>
                                 </div>
                                 <ul class="t_list">
                                     <li>Duration of treatment - <strong>90 minutes</strong></li>
                                     <li>No. of sessions - <strong>02</strong></li>
                                 </ul>
-                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span class="txt">Enquire now</span></a>
+                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span
+                                        class="txt">Enquire now</span></a>
                             </div>
                         </div>
 
 
-                    </div>
+                        <div class="color-shape treatment-list col-md-6 for-men">
+                            <div class="tl_box">
+                                <div class="overlay_01"></div>
+                                <div class="t_heading">
+                                    <h4>Gynecomastia (Chest reduction for men)</h4>
+                                </div>
+                                <div class="t_para">
+                                    <p>Regain your masculine confidence with Chest Contour, a specialized treatment for
+                                        gynecomastia that restores a flatter, firmer chest appearance, helping you feel
+                                        more comfortable and self-assured.</p>
+                                </div>
+                                <ul class="t_list">
+                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                    <li>No. of sessions - <strong>02</strong></li>
+                                </ul>
+                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span
+                                        class="txt">Enquire now</span></a>
+                            </div>
+                        </div>
+                        <div class="color-shape treatment-list col-md-6 for-men">
+                            <div class="tl_box">
+                                <div class="overlay_01"></div>
+                                <div class="t_heading">
+                                    <h4>Non-surgical Weight Loss</h4>
+                                </div>
+                                <div class="t_para">
+                                    <p>Transform your body without surgery with our personalized weight loss and inch
+                                        loss treatments, sculpting your figure and enhancing your confidence with safe,
+                                        effective results.</p>
+                                </div>
+                                <ul class="t_list">
+                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                    <li>No. of sessions - <strong>02</strong></li>
+                                </ul>
+                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span
+                                        class="txt">Enquire now</span></a>
+                            </div>
+                        </div>
+                        <div class="color-shape treatment-list col-md-6 for-men">
+                            <div class="tl_box">
+                                <div class="overlay_01"></div>
+                                <div class="t_heading">
+                                    <h4>Bust Balance</h4>
+                                </div>
+                                <div class="t_para">
+                                    <p>Find relief and balance with Bust Balance, our breast reduction procedure that
+                                        reduces excess breast tissue and reshapes your breasts, alleviating discomfort
+                                        and restoring harmony to your silhouette.</p>
+                                </div>
+                                <ul class="t_list">
+                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                    <li>No. of sessions - <strong>02</strong></li>
+                                </ul>
+                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span
+                                        class="txt">Enquire now</span></a>
+                            </div>
+                        </div>
+                        <div class="color-shape treatment-list col-md-6 for-men">
+                            <div class="tl_box">
+                                <div class="overlay_01"></div>
+                                <div class="t_heading">
+                                    <h4>Breast Augmentation</h4>
+                                </div>
+                                <div class="t_para">
+                                    <p>Enhance your curves and boost your confidence with our breast augmentation
+                                        procedure that adds volume and improves breast shape, giving you a fuller, more
+                                        feminine appearance you'll love.</p>
+                                </div>
+                                <ul class="t_list">
+                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                    <li>No. of sessions - <strong>02</strong></li>
+                                </ul>
+                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span
+                                        class="txt">Enquire now</span></a>
+                            </div>
+                        </div>
+                        <div class="color-shape treatment-list col-md-6 for-men">
+                            <div class="tl_box">
+                                <div class="overlay_01"></div>
+                                <div class="t_heading">
+                                    <h4>Autologous Fat Transfer</h4>
+                                </div>
+                                <div class="t_para">
+                                    <p>Enhance your curves naturally with Natural Curve, our autologous fat transfer
+                                        procedure that uses your body's own fat to augment areas like the breasts or
+                                        buttocks, delivering beautiful, long-lasting results with minimal downtime.</p>
+                                </div>
+                                <ul class="t_list">
+                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                    <li>No. of sessions - <strong>02</strong></li>
+                                </ul>
+                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span
+                                        class="txt">Enquire now</span></a>
+                            </div>
+                        </div>
+                        <div class="color-shape treatment-list col-md-6 for-men">
+                            <div class="tl_box">
+                                <div class="overlay_01"></div>
+                                <div class="t_heading">
+                                    <h4>Breast Lift</h4>
+                                </div>
+                                <div class="t_para">
+                                    <p>Lift & shape your way to a more youthful silhouette with our breast lift
+                                        procedure, restoring firmness and rejuvenating your breasts for a lifted,
+                                        shapely appearance that enhances your confidence and self-image.</p>
+                                </div>
+                                <ul class="t_list">
+                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                    <li>No. of sessions - <strong>02</strong></li>
+                                </ul>
+                                <a href="book-a-consultation.php" class="btn btn-knowmore pageLink"><span
+                                        class="txt">Enquire now</span></a>
+                            </div>
+                        </div>
 
+                    </div>
                 </div>
                 <!-- FAQs Likee treatment section for mobile  section -->
                 <section class="faqs-services d-md-none d-block">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-10 mx-auto text-center">
-                                <h2 class="sc_h2 mb-5">Unlock stunning hair, <br> one treatment at a time</h2>
+                                <h2 class="sc_h2 mb-5">Transforming weight, <br>one holistic plan at a timeF</h2>
                             </div>
                             <div class="col-md-4 mx-auto text-center">
                                 <div class="seprator-color">
@@ -618,30 +797,48 @@
                                         <div class="card-header" id="heading_0-21">
                                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                                 data-target="#collapse_0-21" aria-expanded="false"
-                                                aria-controls="collapse_0-21"><span class="acc_txt">What is a hair
-                                                    transplant?</span> <span class="acc_arrow"></span></button>
+                                                aria-controls="collapse_0-21"><span class="acc_txt">Contour Carve
+                                                    Liposuction</span> <span class="acc_arrow"></span></button>
                                         </div>
                                         <div id="collapse_0-21" class="collapse" aria-labelledby="heading_0-21"
                                             data-parent="#accordionExample-02" style="">
                                             <div class="card-body">
-                                                <p>A hair transplant is a surgical procedure that involves moving hair follicles
-                                                    from one part of the scalp (donor site) to areas with thinning or balding hair
-                                                    (recipient site) to restore natural hair growth.</p>
+                                                <p>Refine your body contours and sculpt your figure with Body Contour
+                                                    Sculpt, a transformative procedure that targets stubborn fat
+                                                    deposits in diverse areas like the abdomen, thighs, and arms,
+                                                    tailored to your unique shape and goals.</p>
+                                                <ul class="t_list">
+                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                                    <li>No. of sessions - <strong>04</strong></li>
+                                                </ul>
+                                                <a href="book-a-consultation.php"
+                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
+                                                        now</span></a>
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="card color-shape Hair">
                                         <div class="card-header" id="heading_0-22">
                                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                                 data-target="#collapse_0-22" aria-expanded="false"
-                                                aria-controls="collapse_0-22"><span class="acc_txt">What hair loss treatments do you
-                                                    offer?</span> <span class="acc_arrow"></span></button>
+                                                aria-controls="collapse_0-22"><span class="acc_txt">Tummy Tuck</span>
+                                                <span class="acc_arrow"></span></button>
                                         </div>
                                         <div id="collapse_0-22" class="collapse" aria-labelledby="heading_0-22"
                                             data-parent="#accordionExample-02">
                                             <div class="card-body">
-                                                <p>We offer a range of hair loss treatments tailored to individual needs, including
-                                                    topical solutions, oral medications, and hair transplant procedures.</p>
+                                                <p>Restore your core strength and redefine your silhouette with our
+                                                    tummy tuck solutions, a transformative procedure that tightens
+                                                    abdominal muscles and removes excess skin for a flatter, more toned
+                                                    midsection.</p>
+                                                <ul class="t_list">
+                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                                    <li>No. of sessions - <strong>01</strong></li>
+                                                </ul>
+                                                <a href="book-a-consultation.php"
+                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
+                                                        now</span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -649,15 +846,22 @@
                                         <div class="card-header" id="heading_0-23">
                                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                                 data-target="#collapse_0-23" aria-expanded="false"
-                                                aria-controls="collapse_0-23"><span class="acc_txt">Can you treat bald
-                                                    patches?</span> <span class="acc_arrow"></span></button>
+                                                aria-controls="collapse_0-23"><span class="acc_txt">Thigh Tuck</span>
+                                                <span class="acc_arrow"></span></button>
                                         </div>
                                         <div id="collapse_0-23" class="collapse" aria-labelledby="heading_0-23"
                                             data-parent="#accordionExample-02">
                                             <div class="card-body">
-                                                <p>Yes, we specialize in treating bald patches using advanced techniques such as
-                                                    hair transplantation, and scalp micropigmentation to restore hair density and
-                                                    natural-looking results.</p>
+                                                <p>Elevate your confidence with our thigh tuck procedure designed to
+                                                    eliminate sagging skin and reshape your thighs, revealing smoother,
+                                                    firmer contours and enhancing your overall appearance.</p>
+                                                <ul class="t_list">
+                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                                    <li>No. of sessions - <strong>02</strong></li>
+                                                </ul>
+                                                <a href="book-a-consultation.php"
+                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
+                                                        now</span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -665,16 +869,22 @@
                                         <div class="card-header" id="heading_0-24">
                                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                                 data-target="#collapse_0-24" aria-expanded="false"
-                                                aria-controls="collapse_0-24"><span class="acc_txt">Do you provide hairline
-                                                    correction treatments?</span> <span class="acc_arrow"></span></button>
+                                                aria-controls="collapse_0-24"><span class="acc_txt">Arm Tuck</span>
+                                                <span class="acc_arrow"></span></button>
                                         </div>
                                         <div id="collapse_0-24" class="collapse" aria-labelledby="heading_0-24"
                                             data-parent="#accordionExample-02">
                                             <div class="card-body">
-                                                <p>Yes, our hairline correction treatments aim to enhance and refine the natural
-                                                    hairline, addressing issues such as receding hairlines, uneven hairlines, and
-                                                    hair loss along the frontal area for a more balanced and aesthetically pleasing
-                                                    appearance.</p>
+                                                <p>Achieve sleek, sculpted arms with our arm tuck procedure that removes
+                                                    excess skin and fat, giving you slimmer, more defined arms and
+                                                    boosting your self-assurance.</p>
+                                                <ul class="t_list">
+                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                                    <li>No. of sessions - <strong>02</strong></li>
+                                                </ul>
+                                                <a href="book-a-consultation.php"
+                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
+                                                        now</span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -682,15 +892,22 @@
                                         <div class="card-header" id="heading_0-25">
                                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                                 data-target="#collapse_0-25" aria-expanded="false"
-                                                aria-controls="collapse_0-25"><span class="acc_txt">What is laser hair
-                                                    removal?</span> <span class="acc_arrow"></span></button>
+                                                aria-controls="collapse_0-25"><span class="acc_txt">Gynecomastia (Chest
+                                                    reduction for men)</span> <span class="acc_arrow"></span></button>
                                         </div>
                                         <div id="collapse_0-25" class="collapse" aria-labelledby="heading_0-24"
                                             data-parent="#accordionExample-02">
                                             <div class="card-body">
-                                                <p>Laser hair removal is a non-invasive procedure that uses concentrated laser light
-                                                    to target and remove unwanted hair follicles, providing long-term hair reduction
-                                                    and smoother skin texture.</p>
+                                                <p>Regain your masculine confidence with Chest Contour, a specialized
+                                                    treatment for gynecomastia that restores a flatter, firmer chest
+                                                    appearance, helping you feel more comfortable and self-assured.</p>
+                                                <ul class="t_list">
+                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                                    <li>No. of sessions - <strong>02</strong></li>
+                                                </ul>
+                                                <a href="book-a-consultation.php"
+                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
+                                                        now</span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -698,15 +915,22 @@
                                         <div class="card-header" id="heading_0-26">
                                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                                 data-target="#collapse_0-26" aria-expanded="false"
-                                                aria-controls="collapse_0-26"><span class="acc_txt">Are your hair treatments safe
-                                                    and effective?</span> <span class="acc_arrow"></span></button>
+                                                aria-controls="collapse_0-26"><span class="acc_txt">Non-surgical Weight
+                                                    Loss</span> <span class="acc_arrow"></span></button>
                                         </div>
                                         <div id="collapse_0-26" class="collapse" aria-labelledby="heading_0-26"
                                             data-parent="#accordionExample-02">
                                             <div class="card-body">
-                                                <p>Yes, our hair treatments are performed by experienced professionals using
-                                                    state-of-the-art equipment and techniques, ensuring safety, efficacy, and
-                                                    natural-looking results for our clients.</p>
+                                                <p>Transform your body without surgery with our personalized weight loss
+                                                    and inch loss treatments, sculpting your figure and enhancing your
+                                                    confidence with safe, effective results.</p>
+                                                <ul class="t_list">
+                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                                    <li>No. of sessions - <strong>02</strong></li>
+                                                </ul>
+                                                <a href="book-a-consultation.php"
+                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
+                                                        now</span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -715,16 +939,23 @@
 
                                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                                 data-target="#collapse_0-27" aria-expanded="false"
-                                                aria-controls="collapse_0-27"><span class="acc_txt">How long does it take to see
-                                                    results from hair treatments?</span> <span class="acc_arrow"></span></button>
+                                                aria-controls="collapse_0-27"><span class="acc_txt">Bust Balance</span>
+                                                <span class="acc_arrow"></span></button>
                                         </div>
                                         <div id="collapse_0-27" class="collapse" aria-labelledby="heading_0-27"
                                             data-parent="#accordionExample-02">
                                             <div class="card-body">
-                                                <p>The timeline for results varies depending on the type of treatment and individual
-                                                    factors. While some treatments may show immediate improvements, others may
-                                                    require multiple sessions for optimal results. Our team will discuss expected
-                                                    timelines during your consultation.</p>
+                                                <p>Find relief and balance with Bust Balance, our breast reduction
+                                                    procedure that reduces excess breast tissue and reshapes your
+                                                    breasts, alleviating discomfort and restoring harmony to your
+                                                    silhouette.</p>
+                                                <ul class="t_list">
+                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                                    <li>No. of sessions - <strong>02</strong></li>
+                                                </ul>
+                                                <a href="book-a-consultation.php"
+                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
+                                                        now</span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -732,15 +963,22 @@
                                         <div class="card-header" id="heading_0-28">
                                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                                 data-target="#collapse_0-28" aria-expanded="false"
-                                                aria-controls="collapse_0-28"><span class="acc_txt">What is the cost of hair
-                                                    treatments?</span> <span class="acc_arrow"></span></button>
+                                                aria-controls="collapse_0-28"><span class="acc_txt">Breast
+                                                    Augmentation</span> <span class="acc_arrow"></span></button>
                                         </div>
                                         <div id="collapse_0-28" class="collapse" aria-labelledby="heading_0-28"
                                             data-parent="#accordionExample-02">
                                             <div class="card-body">
-                                                <p>The cost of hair treatments varies depending on the specific procedure, treatment
-                                                    plan, and individual needs. Our team will provide detailed pricing information
-                                                    during your consultation, including any financing options available.</p>
+                                                <p>Enhance your curves and boost your confidence with our breast
+                                                    augmentation procedure that adds volume and improves breast shape,
+                                                    giving you a fuller, more feminine appearance you'll love.</p>
+                                                <ul class="t_list">
+                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                                    <li>No. of sessions - <strong>02</strong></li>
+                                                </ul>
+                                                <a href="book-a-consultation.php"
+                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
+                                                        now</span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -748,17 +986,23 @@
                                         <div class="card-header" id="heading_0-29">
                                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                                 data-target="#collapse_0-29" aria-expanded="false"
-                                                aria-controls="collapse_0-29"><span class="acc_txt">Are there any side effects or
-                                                    risks associated with hair treatments?</span> <span
-                                                    class="acc_arrow"></span></button>
+                                                aria-controls="collapse_0-29"><span class="acc_txt">Autologous Fat
+                                                    Transfer</span> <span class="acc_arrow"></span></button>
                                         </div>
                                         <div id="collapse_0-29" class="collapse" aria-labelledby="heading_0-29"
                                             data-parent="#accordionExample-02">
                                             <div class="card-body">
-                                                <p>Like any medical procedure, there may be potential risks and side effects
-                                                    associated with hair treatments. These may include temporary redness, swelling
-                                                    or discomfort, which typically resolve within a few days. Our team will discuss
-                                                    potential risks and benefits during your consultation.</p>
+                                                <p>Enhance your curves naturally with Natural Curve, our autologous fat
+                                                    transfer procedure that uses your body's own fat to augment areas
+                                                    like the breasts or buttocks, delivering beautiful, long-lasting
+                                                    results with minimal downtime.</p>
+                                                <ul class="t_list">
+                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                                    <li>No. of sessions - <strong>02</strong></li>
+                                                </ul>
+                                                <a href="book-a-consultation.php"
+                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
+                                                        now</span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -766,14 +1010,23 @@
                                         <div class="card-header" id="heading_0-30">
                                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                                 data-target="#collapse_0-30" aria-expanded="false"
-                                                aria-controls="collapse_0-30"><span class="acc_txt">Do you offer hair care products
-                                                    or recommendations?</span> <span class="acc_arrow"></span></button>
+                                                aria-controls="collapse_0-30"><span class="acc_txt">Breast Lift</span>
+                                                <span class="acc_arrow"></span></button>
                                         </div>
                                         <div id="collapse_0-30" class="collapse" aria-labelledby="heading_0-30"
                                             data-parent="#accordionExample-02">
                                             <div class="card-body">
-                                                <p>We provide personalized hair care recommendations and may give lifestyle
-                                                    suggestions to complement your treatment and maintain healthy hair.</p>
+                                                <p>Lift & shape your way to a more youthful silhouette with our breast
+                                                    lift procedure, restoring firmness and rejuvenating your breasts for
+                                                    a lifted, shapely appearance that enhances your confidence and
+                                                    self-image.</p>
+                                                <ul class="t_list">
+                                                    <li>Duration of treatment - <strong>90 minutes</strong></li>
+                                                    <li>No. of sessions - <strong>02</strong></li>
+                                                </ul>
+                                                <a href="book-a-consultation.php"
+                                                    class="btn btn-knowmore pageLink"><span class="txt">Enquire
+                                                        now</span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -863,33 +1116,41 @@
             <div>Reviews ★★★★★</div>
         </div>
 
-        <div id="testimonialCarousel" class="carousel slide testimonial-carousel" data-bs-wrap="true" data-bs-ride="carousel" data-bs-interval="3000">
+        <div id="testimonialCarousel" class="carousel slide testimonial-carousel" data-bs-wrap="true"
+            data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner container">
                 <div class="carousel-item active">
                     <p class="testimonial-text">
-                        I've been coming here for a little over half a year for laser hair removal and I'm really happy with my experience here at Canada MedLaser. Super professional and knowledgeable about all of their services, and the results are amazing. I would definitely recommend this place to anyone looking!
+                        I've been coming here for a little over half a year for laser hair removal and I'm really happy
+                        with my experience here at Canada MedLaser. Super professional and knowledgeable about all of
+                        their services, and the results are amazing. I would definitely recommend this place to anyone
+                        looking!
                     </p>
                     <p class="testimonial-author">- Sasha Miranda</p>
                 </div>
                 <div class="carousel-item">
                     <p class="testimonial-text">
-                        Amazing service! The staff is very professional and friendly. I’ve seen great results after just a few sessions.
+                        Amazing service! The staff is very professional and friendly. I’ve seen great results after just
+                        a few sessions.
                     </p>
                     <p class="testimonial-author">- John Doe</p>
                 </div>
             </div>
 
             <!-- Left/Right controls (arrows) -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev">
                 <span class="fa fa-chevron-left" aria-hidden="true" style="color: black;"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="next">
                 <span class="fa fa-chevron-right" aria-hidden="true" style="color: black;"></span>
             </button>
 
             <!-- Carousel Indicators -->
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                    class="active"></button>
                 <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
             </div>
         </div>
@@ -903,7 +1164,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="brand-video-wrp">
-                    <video id="myVideo" loop controls autoplay playsinline title="A group of people happy in the video with Angel Health Care Services.">
+                        <video id="myVideo" loop controls autoplay playsinline
+                            title="A group of people happy in the video with Angel Health Care Services.">
                             <source src="video/Angel-Health-Centre-Be-The-Star.mp4" type="video/mp4">
                         </video>
 
@@ -967,14 +1229,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 mx-auto text-center">
-                    <h3 class="sc_h2" style="">
-                        <div
-                            style="color: #632963; display: block; text-align: center; position: relative; background-position-x: 0%;">
-                            Got questions? </div>
-                        <div
-                            style="color:#632963; display: block; text-align: center; position: relative; background-position-x: 0%;">
-                            Find answers here.</div>
-                    </h3>
+                    <h3 class="sc_h2">Got questions? <br> Find answers here.</h3>
                 </div>
                 <div class="col-md-4 mx-auto text-center">
                     <div class="seprator-color">
@@ -985,170 +1240,234 @@
                 <div class="col-md-9 mx-auto">
                     <div class="accordion" id="accordionExample-02">
 
-                        <div class="card color-shape Hair">
-                            <div class="card-header" id="heading_0-21">
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-31">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapse_0-21" aria-expanded="false"
-                                    aria-controls="collapse_0-21"><span class="acc_txt">What is a hair
-                                        transplant?</span> <span class="acc_arrow"></span></button>
+                                    data-target="#collapse_0-31" aria-expanded="false"
+                                    aria-controls="collapse_0-31"><span class="acc_txt">How do liposuction procedures
+                                        help with body contouring?</span> <span class="acc_arrow"></span></button>
                             </div>
-                            <div id="collapse_0-21" class="collapse" aria-labelledby="heading_0-21"
-                                data-parent="#accordionExample-02" style="">
-                                <div class="card-body">
-                                    <p>A hair transplant is a surgical procedure that involves moving hair follicles
-                                        from one part of the scalp (donor site) to areas with thinning or balding hair
-                                        (recipient site) to restore natural hair growth.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card color-shape Hair">
-                            <div class="card-header" id="heading_0-22">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapse_0-22" aria-expanded="false"
-                                    aria-controls="collapse_0-22"><span class="acc_txt">What hair loss treatments do you
-                                        offer?</span> <span class="acc_arrow"></span></button>
-                            </div>
-                            <div id="collapse_0-22" class="collapse" aria-labelledby="heading_0-22"
+                            <div id="collapse_0-31" class="collapse" aria-labelledby="heading_0-31"
                                 data-parent="#accordionExample-02">
                                 <div class="card-body">
-                                    <p>We offer a range of hair loss treatments tailored to individual needs, including
-                                        topical solutions, oral medications, and hair transplant procedures.</p>
+                                    <p>Liposuction removes excess fat from areas like the tummy, thighs, and arms,
+                                        improving contours and overall body shape.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="card color-shape Hair">
-                            <div class="card-header" id="heading_0-23">
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-32">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapse_0-23" aria-expanded="false"
-                                    aria-controls="collapse_0-23"><span class="acc_txt">Can you treat bald
-                                        patches?</span> <span class="acc_arrow"></span></button>
+                                    data-target="#collapse_0-32" aria-expanded="false"
+                                    aria-controls="collapse_0-32"><span class="acc_txt">What is the typical recovery
+                                        time after liposuction?</span> <span class="acc_arrow"></span></button>
                             </div>
-                            <div id="collapse_0-23" class="collapse" aria-labelledby="heading_0-23"
+                            <div id="collapse_0-32" class="collapse" aria-labelledby="heading_0-32"
                                 data-parent="#accordionExample-02">
                                 <div class="card-body">
-                                    <p>Yes, we specialize in treating bald patches using advanced techniques such as
-                                        hair transplantation, and scalp micropigmentation to restore hair density and
-                                        natural-looking results.</p>
+                                    <p>Recovery after liposuction varies but usually takes a few weeks, depending on the
+                                        extent of the procedure.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="card color-shape Hair">
-                            <div class="card-header" id="heading_0-24">
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-33">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapse_0-24" aria-expanded="false"
-                                    aria-controls="collapse_0-24"><span class="acc_txt">Do you provide hairline
-                                        correction treatments?</span> <span class="acc_arrow"></span></button>
-                            </div>
-                            <div id="collapse_0-24" class="collapse" aria-labelledby="heading_0-24"
-                                data-parent="#accordionExample-02">
-                                <div class="card-body">
-                                    <p>Yes, our hairline correction treatments aim to enhance and refine the natural
-                                        hairline, addressing issues such as receding hairlines, uneven hairlines, and
-                                        hair loss along the frontal area for a more balanced and aesthetically pleasing
-                                        appearance.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card color-shape Hair">
-                            <div class="card-header" id="heading_0-25">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapse_0-25" aria-expanded="false"
-                                    aria-controls="collapse_0-25"><span class="acc_txt">What is laser hair
-                                        removal?</span> <span class="acc_arrow"></span></button>
-                            </div>
-                            <div id="collapse_0-25" class="collapse" aria-labelledby="heading_0-24"
-                                data-parent="#accordionExample-02">
-                                <div class="card-body">
-                                    <p>Laser hair removal is a non-invasive procedure that uses concentrated laser light
-                                        to target and remove unwanted hair follicles, providing long-term hair reduction
-                                        and smoother skin texture.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card color-shape Hair">
-                            <div class="card-header" id="heading_0-26">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapse_0-26" aria-expanded="false"
-                                    aria-controls="collapse_0-26"><span class="acc_txt">Are your hair treatments safe
-                                        and effective?</span> <span class="acc_arrow"></span></button>
-                            </div>
-                            <div id="collapse_0-26" class="collapse" aria-labelledby="heading_0-26"
-                                data-parent="#accordionExample-02">
-                                <div class="card-body">
-                                    <p>Yes, our hair treatments are performed by experienced professionals using
-                                        state-of-the-art equipment and techniques, ensuring safety, efficacy, and
-                                        natural-looking results for our clients.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card color-shape Hair">
-                            <div class="card-header" id="heading_0-27">
-
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapse_0-27" aria-expanded="false"
-                                    aria-controls="collapse_0-27"><span class="acc_txt">How long does it take to see
-                                        results from hair treatments?</span> <span class="acc_arrow"></span></button>
-                            </div>
-                            <div id="collapse_0-27" class="collapse" aria-labelledby="heading_0-27"
-                                data-parent="#accordionExample-02">
-                                <div class="card-body">
-                                    <p>The timeline for results varies depending on the type of treatment and individual
-                                        factors. While some treatments may show immediate improvements, others may
-                                        require multiple sessions for optimal results. Our team will discuss expected
-                                        timelines during your consultation.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card color-shape Hair">
-                            <div class="card-header" id="heading_0-28">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapse_0-28" aria-expanded="false"
-                                    aria-controls="collapse_0-28"><span class="acc_txt">What is the cost of hair
-                                        treatments?</span> <span class="acc_arrow"></span></button>
-                            </div>
-                            <div id="collapse_0-28" class="collapse" aria-labelledby="heading_0-28"
-                                data-parent="#accordionExample-02">
-                                <div class="card-body">
-                                    <p>The cost of hair treatments varies depending on the specific procedure, treatment
-                                        plan, and individual needs. Our team will provide detailed pricing information
-                                        during your consultation, including any financing options available.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card color-shape Hair">
-                            <div class="card-header" id="heading_0-29">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapse_0-29" aria-expanded="false"
-                                    aria-controls="collapse_0-29"><span class="acc_txt">Are there any side effects or
-                                        risks associated with hair treatments?</span> <span
+                                    data-target="#collapse_0-33" aria-expanded="false"
+                                    aria-controls="collapse_0-33"><span class="acc_txt">Can liposuction be combined with
+                                        other procedures for better results?</span> <span
                                         class="acc_arrow"></span></button>
                             </div>
-                            <div id="collapse_0-29" class="collapse" aria-labelledby="heading_0-29"
+                            <div id="collapse_0-33" class="collapse" aria-labelledby="heading_0-33"
                                 data-parent="#accordionExample-02">
                                 <div class="card-body">
-                                    <p>Like any medical procedure, there may be potential risks and side effects
-                                        associated with hair treatments. These may include temporary redness, swelling
-                                        or discomfort, which typically resolve within a few days. Our team will discuss
-                                        potential risks and benefits during your consultation.</p>
+                                    <p>Yes, liposuction can be combined with treatments like tummy tucks to achieve
+                                        comprehensive body contouring.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="card color-shape Hair">
-                            <div class="card-header" id="heading_0-30">
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-34">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapse_0-30" aria-expanded="false"
-                                    aria-controls="collapse_0-30"><span class="acc_txt">Do you offer hair care products
-                                        or recommendations?</span> <span class="acc_arrow"></span></button>
+                                    data-target="#collapse_0-34" aria-expanded="false"
+                                    aria-controls="collapse_0-34"><span class="acc_txt">What are the benefits of a tummy
+                                        tuck procedure?</span> <span class="acc_arrow"></span></button>
                             </div>
-                            <div id="collapse_0-30" class="collapse" aria-labelledby="heading_0-30"
+                            <div id="collapse_0-34" class="collapse" aria-labelledby="heading_0-34"
                                 data-parent="#accordionExample-02">
                                 <div class="card-body">
-                                    <p>We provide personalized hair care recommendations and may give lifestyle
-                                        suggestions to complement your treatment and maintain healthy hair.</p>
+                                    <p>A tummy tuck tightens abdominal muscles and removes excess skin, resulting in a
+                                        firmer, flatter abdomen.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-35">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-35" aria-expanded="false"
+                                    aria-controls="collapse_0-35"><span class="acc_txt">Is a tummy tuck suitable for
+                                        weight loss?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-35" class="collapse" aria-labelledby="heading_0-35"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Tummy tucks are not weight-loss procedures but can remove excess skin post-weight
+                                        loss for a more contoured appearance.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-36">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-36" aria-expanded="false"
+                                    aria-controls="collapse_0-36"><span class="acc_txt">How does a thigh tuck improve
+                                        thigh contour?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-36" class="collapse" aria-labelledby="heading_0-36"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Thigh tucks remove excess skin and fat from the thighs, improving their shape and
+                                        firmness.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-37">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-37" aria-expanded="false"
+                                    aria-controls="collapse_0-37"><span class="acc_txt">What are the benefits of
+                                        gynecomastia surgery?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-37" class="collapse" aria-labelledby="heading_0-37"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Gynecomastia surgery can improve chest contour, reduce breast size, and boost
+                                        self-confidence in affected individuals.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-38">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-38" aria-expanded="false"
+                                    aria-controls="collapse_0-38"><span class="acc_txt">What are non-surgical weight
+                                        loss options available?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-38" class="collapse" aria-labelledby="heading_0-38"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Non-surgical weight loss options include diet plans, exercise programs, and
+                                        lifestyle modifications for effective weight management.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-39">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-39" aria-expanded="false"
+                                    aria-controls="collapse_0-39"><span class="acc_txt">What is involved in breast
+                                        augmentation procedures?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-39" class="collapse" aria-labelledby="heading_0-39"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Breast augmentation involves using implants to increase breast size or achieve
+                                        desired breast contours.</p>
                                 </div>
                             </div>
                         </div>
 
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-40">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-40" aria-expanded="false"
+                                    aria-controls="collapse_0-40"><span class="acc_txt">How does autologous fat transfer
+                                        enhance body contours?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-40" class="collapse" aria-labelledby="heading_0-40"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Autologous fat transfer uses harvested fat from one area to enhance volume or
+                                        contour in another, such as the face or breasts.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-341">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-341" aria-expanded="false"
+                                    aria-controls="collapse_0-341"><span class="acc_txt">Are there any risks associated
+                                        with these treatments?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-341" class="collapse" aria-labelledby="heading_0-341"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>While these treatments are generally safe, risks may include infection, scarring,
+                                        or complications that will be discussed during your consultation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-342">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-342" aria-expanded="false"
+                                    aria-controls="collapse_0-342"><span class="acc_txt">Will these treatments provide
+                                        immediate results?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-342" class="collapse" aria-labelledby="heading_0-342"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Results vary by treatment, with some showing immediate improvement while others
+                                        require time for full effects to be visible.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-343">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-343" aria-expanded="false"
+                                    aria-controls="collapse_0-343"><span class="acc_txt">What is the recovery period for
+                                        these treatments?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-343" class="collapse" aria-labelledby="heading_0-343"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Recovery times vary based on the procedure, ranging from minimal downtime to
+                                        several weeks for full recovery.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-344">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-344" aria-expanded="false"
+                                    aria-controls="collapse_0-344"><span class="acc_txt">Is there an age requirement for
+                                        these treatments?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-344" class="collapse" aria-labelledby="heading_0-344"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Yes, there may be age requirements for certain procedures, and parental consent
+                                        might be needed for younger patients.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card color-shape Weight">
+                            <div class="card-header" id="heading_0-345">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapse_0-345" aria-expanded="false"
+                                    aria-controls="collapse_0-345"><span class="acc_txt">How long do the results of
+                                        these treatments last?</span> <span class="acc_arrow"></span></button>
+                            </div>
+                            <div id="collapse_0-345" class="collapse" aria-labelledby="heading_0-345"
+                                data-parent="#accordionExample-02">
+                                <div class="card-body">
+                                    <p>Results duration varies; some treatments offer long-lasting effects, while others
+                                        may require periodic maintenance for sustained results.</p>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
@@ -1172,27 +1491,37 @@
                     <div class="col-md-8 text-center">
                         <div class="d-inline-block text-left">
                             <h2 class="">
-                                <span class="spo"><span class="spib"><span class="d-inline-block">Reach us at</span></span></span>
+                                <span class="spo"><span class="spib"><span class="d-inline-block">Reach us
+                                            at</span></span></span>
                             </h2>
                             <ul class="c_list row">
-                                <li class=" col-md-12 col-lg-6 col-12 para-21 para-slide">912, Maker Chambers 5, <br> Nariman Point, Mumbai, <br> Maharashtra - 400021.</li>
-                                <li class=" col-md-12 col-lg-6 col-12 para-21 para-slide">Call us at: <a href="tel:+91 90042 64646">+91 90042 64646</a><br>
-                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="tel:+91 9819422422">+91 9819422422<br></a>
+                                <li class=" col-md-12 col-lg-6 col-12 para-21 para-slide">912, Maker Chambers 5, <br>
+                                    Nariman Point, Mumbai, <br> Maharashtra - 400021.</li>
+                                <li class=" col-md-12 col-lg-6 col-12 para-21 para-slide">Call us at: <a
+                                        href="tel:+91 90042 64646">+91 90042 64646</a><br>
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a
+                                        href="tel:+91 9819422422">+91 9819422422<br></a>
                                     <!-- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="tel:+91 9819422422">+91 9819422422</a> -->
                                 </li>
 
-                                <li class="para-21 col-md-12 col-lg-6 col-12 para-slide">Email us at: <a href="mailto:info@angelhealthcentre.com">info@angelhealthcentre.com</a></li>
+                                <li class="para-21 col-md-12 col-lg-6 col-12 para-slide">Email us at: <a
+                                        href="mailto:info@angelhealthcentre.com">info@angelhealthcentre.com</a></li>
                                 <div class="col-12 col-md-12 col-lg-6">
                                     <div class="para-slide mt-4">
-                                        <p>Your feedback is valuable to us, write to us at: <br> <a href="mailto:feedback@angelhealthcentre.com">feedback@angelhealthcentre.com</a></p>
+                                        <p>Your feedback is valuable to us, write to us at: <br> <a
+                                                href="mailto:feedback@angelhealthcentre.com">feedback@angelhealthcentre.com</a>
+                                        </p>
                                     </div>
                                     <div class="para-slide mt-4">
-                                        <p>For any grievances: <br> <a href="mailto:grievance@angelhealthcentre.com">grievance@angelhealthcentre.com</a></p>
+                                        <p>For any grievances: <br> <a
+                                                href="mailto:grievance@angelhealthcentre.com">grievance@angelhealthcentre.com</a>
+                                        </p>
                                     </div>
                                 </div>
                             </ul>
                             <div class="para-slide mt-0">
-                                <a href="https://maps.app.goo.gl/veQ1ifxHq2aT5yC98" class="btn btn-knowmore" target="_blank"><span class="txt">Find us on google maps</span></a>
+                                <a href="https://maps.app.goo.gl/veQ1ifxHq2aT5yC98" class="btn btn-knowmore"
+                                    target="_blank"><span class="txt">Find us on google maps</span></a>
                             </div>
                         </div>
                     </div>
