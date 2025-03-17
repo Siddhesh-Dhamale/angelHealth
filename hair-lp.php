@@ -84,15 +84,15 @@
                 <!-- <a onclick="openModal()" class="ctabtn" href="javascript:void(0);" id="getStartedBtn">
                     <span class="menu-text">Get Started</span>
                 </a> -->
-                <p>#Ranked Hair Clinic in London</p>
-                <h3>Life isn't Perfect but Your hair can be </h3>
+                <!-- <p>#Ranked Hair Clinic in London</p> -->
+                <h3>Your dream hair? </br> Just the right care away. </h3>
                 <div class="row ">
-                    <div class="col-6 border-bottom border-1">hair treatment</div>
-                    <div class="col-6 border-bottom border-1">hair treatment</div>
-                    <div class="col-6 border-bottom border-1">hair treatment</div>
-                    <div class="col-6 border-bottom border-1">hair treatment</div>
-                    <div class="col-6 border-bottom border-1">hair treatment</div>
-                    <div class="col-6 border-bottom border-1">hair treatment</div>
+                    <div class="col-6 border-bottom border-1">PRP & Advanced Hair Regrowth</div>
+                    <div class="col-6 border-bottom border-1">Hairline Correction</div>
+                    <div class="col-6 border-bottom border-1">Bald Patch Solutions</div>
+                    <div class="col-6 border-bottom border-1">Hair Thinning Treatment</div>
+                    <div class="col-6 border-bottom border-1">Hair Fall Control</div>
+                    <div class="col-6 border-bottom border-1">Non-Surgical & Effective Treatments</div>
                     <div class="col-6 mt-3"><a onclick="openModal()" class="ctabtn skinCta rounded" href="javascript:void(0);" id="getStartedBtn">
                             <span class="menu-text shw-home-button ">Make a appointment</span>
                         </a></div>
@@ -609,16 +609,15 @@
 
     <section class="steps-section">
         <div class="container">
-            <h2 class="mb-5">Our great 3 steps for treatment</h2>
+            <h2 class="mb-5">3 Steps to Fuller, Healthier Hair</h2>
 
             <div class="row step-box-custom justify-content-center g-4">
                 <!-- Step 1 -->
                 <div class="col-md-4 d-flex step-div">
                     <div class="step-card mx-auto w-100">
                         <div class="step-number">Step 1</div>
-                        <h4 class="step-title">Doctor Consultation</h4>
-                        <p class="step-description">These theme is insanely flexible and amazingly easy to use. This
-                            alone would be enough for a 5 star rating.</p>
+                        <h4 class="step-title"> Expert Consultation</h4>
+                        <p class="step-description">Get a personalized scalp and hair check-up.</p>
                     </div>
                 </div>
 
@@ -626,9 +625,8 @@
                 <div class="col-md-4 d-flex step-div">
                     <div class="step-card mx-auto w-100">
                         <div class="step-number">Step 2</div>
-                        <h4 class="step-title">Digital Diagnosis</h4>
-                        <p class="step-description">These theme is insanely flexible and amazingly easy to use. This
-                            alone would be enough for a 5 star rating.</p>
+                        <h4 class="step-title">Precision Diagnosis</h4>
+                        <p class="step-description"> Advanced analysis to find the root cause.</p>
                     </div>
                 </div>
 
@@ -636,9 +634,8 @@
                 <div class="col-md-4 d-flex step-div">
                     <div class="step-card mx-auto w-100">
                         <div class="step-number">Step 3</div>
-                        <h4 class="step-title">Safe & Holistic Treatment</h4>
-                        <p class="step-description">These theme is insanely flexible and amazingly easy to use. This
-                            alone would be enough for a 5 star rating.</p>
+                        <h4 class="step-title"> Curated Treatments</h4>
+                        <p class="step-description">Effective solutions for hair regrowth and care.</p>
                     </div>
                 </div>
             </div>
@@ -659,12 +656,10 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h2>We're Tressa Hair Clinic</h2>
-                    <p>Get started swiftly & easily by importing a demo of your choice in a single click. Over 30
-                        high-quality professionally designed pre-built website concepts to choose from.</p>
-                    <p>Tressa is a modern business theme that lets you build stunning high-performance websites using a
-                        fully visual interface. Start with any of the demos below or build one on your own. Exponent is
-                        a perfect blend of spacious layouts and precise typography.</p>
+                    <h2>30+ Years of Transforming Hair & Lives</h2>
+                    <p>Angel Health & Aesthetic Clinic provides advanced hair restoration with a holistic approach. Whether it's PRP, regrowth treatments, or scalp care, our specialists ensure effective and lasting solutions.
+                        Regain confidence with our expert hair solutions tailored just for you. From hair loss to scalp health, we offer cutting-edge treatments that deliver real results.
+                    </p>
                     <button class="btn btn-custom">Make an Appointment</button>
                 </div>
             </div>
@@ -684,15 +679,33 @@
             <div class="carousel-inner container">
                 <div class="carousel-item active">
                     <p class="testimonial-text">
-                        I've been coming here for a little over half a year for laser hair removal and I'm really happy with my experience here at Canada MedLaser. Super professional and knowledgeable about all of their services, and the results are amazing. I would definitely recommend this place to anyone looking!
+                    After years of hair fall issues, I finally found the perfect solution at Angel Health. Their hair regrowth treatment works like magic!
                     </p>
-                    <p class="testimonial-author">- Sasha Miranda</p>
+                    <p class="testimonial-author">- Pranoti Mote</p>
                 </div>
                 <div class="carousel-item">
                     <p class="testimonial-text">
-                        Amazing service! The staff is very professional and friendly. I’ve seen great results after just a few sessions.
+                    After years of trying oils and home remedies, I finally found something that works. Angel Health & Aesthetic Clinic gave me my hair back!
                     </p>
-                    <p class="testimonial-author">- John Doe</p>
+                    <p class="testimonial-author">- Neha Kohli</p>
+                </div>
+                <div class="carousel-item">
+                    <p class="testimonial-text">
+                    I was skeptical at first, but after just three months of treatment, I can see new hair growing! The doctors here truly care.
+                    </p>
+                    <p class="testimonial-author">- Amit Suthar</p>
+                </div>
+                <div class="carousel-item">
+                    <p class="testimonial-text">
+                    The staff is so knowledgeable and supportive. They explained everything and made sure I was comfortable throughout my treatment.
+                    </p>
+                    <p class="testimonial-author">- Vikram Rao</p>
+                </div>
+                <div class="carousel-item">
+                    <p class="testimonial-text">
+                    I was losing hair rapidly and had tried everything. Angel Health & Aesthetic Clinic’s PRP treatment worked wonders! My hair is thicker, and I finally feel confident again. Thank you!
+                    </p>
+                    <p class="testimonial-author">-  Nia  Oberoi</p>
                 </div>
             </div>
 

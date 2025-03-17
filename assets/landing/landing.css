@@ -481,6 +481,9 @@ A:hover {
   right: 10%;
   width: 45%;
 }
+.Bannercontent h3{
+  letter-spacing: 2px;
+}
 .bannerCards {
   position: relative;
   top: -55px;
